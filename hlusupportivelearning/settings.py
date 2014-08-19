@@ -30,12 +30,19 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = (
+    'grappelli',
+    'django_select2',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'account',
+    'findinggroup',
+    'news',
+    'studentinfo',
+    'topic',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -65,7 +72,7 @@ DATABASES = {
 # Internationalization
 # https://docs.djangoproject.com/en/1.6/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'vi-Vi'
 
 TIME_ZONE = 'UTC'
 
@@ -80,3 +87,24 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.6/howto/static-files/
 
 STATIC_URL = '/static/'
+
+# Add new lines
+AUTH_USER_MODEL = 'account.CUser'
+PROJECT_DIR=os.path.dirname(__file__)
+STATICFILES_FINDERS = (
+    'django.contrib.staticfiles.finders.AppDirectoriesFinder',
+    'django.contrib.staticfiles.finders.FileSystemFinder',
+)
+TEMPLATE_CONTEXT_PROCESSORS =(
+    "django.core.context_processors.request",
+    "django.contrib.auth.context_processors.auth",
+    "django.core.context_processors.debug",
+    "django.core.context_processors.i18n",
+    "django.core.context_processors.media",
+    "django.core.context_processors.static",
+    "django.core.context_processors.tz",
+    "django.contrib.messages.context_processors.messages",
+)
+
+STATIC_ROOT= os.path.join(PROJECT_DIR,'static_media/')
+STATICFILES_DIRS = ( os.path.join(PROJECT_DIR,'static/'),)
