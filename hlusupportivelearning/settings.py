@@ -30,6 +30,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = (
+    # 'grappelli.dashboard',
     'grappelli',
     'django_select2',
     'django.contrib.admin',
@@ -108,3 +109,10 @@ TEMPLATE_CONTEXT_PROCESSORS =(
 
 STATIC_ROOT= os.path.join(PROJECT_DIR,'static_media/')
 STATICFILES_DIRS = ( os.path.join(PROJECT_DIR,'static/'),)
+GRAPPELLI_ADMIN_TITLE="HLU"
+GRAPPELLI_SWITCH_USER=True
+GRAPPELLI_CLEAN_INPUT_TYPES=True
+# GRAPPELLI_INDEX_DASHBOARD = 'hlusupportivelearning.dashboard.CustomIndexDashboard'
+# GRAPPELLI_INDEX_DASHBOARD = {  # alternative method
+#     'hlusupportivelearning.admin.admin_site': 'hlusupportivelearning.my_dashboard.CustomIndexDashboard',
+# }
