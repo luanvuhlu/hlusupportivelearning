@@ -2,193 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10f7b718-80ed-4ae4-9462-d158fc0a126b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/spellchecker/editor_plugin_src.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/spellchecker/editor_plugin_src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/abbr.htm" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/abbr.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/js/abbr.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/js/abbr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/about.htm" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/about.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/js/about.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/js/about.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/examples/accessibility.html" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/examples/accessibility.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/acronym.htm" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/acronym.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/js/acronym.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/js/acronym.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/advhr/css/advhr.css" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/advhr/css/advhr.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/advimage/css/advimage.css" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/advimage/css/advimage.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/advimage_orig/css/advimage.css" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/advimage_orig/css/advimage.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/advlink/css/advlink.css" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/advlink/css/advlink.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/advlink_orig/css/advlink.css" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/advlink_orig/css/advlink.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/advlink/js/advlink.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/advlink/js/advlink.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/advlink_orig/js/advlink.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/advlink_orig/js/advlink.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/anchor.htm" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/anchor.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/js/anchor.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/js/anchor.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/css/attributes.css" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/css/attributes.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/attributes.htm" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/attributes.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/js/attributes.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/js/attributes.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/template/blank.htm" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/template/blank.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/template_orig/blank.htm" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/template_orig/blank.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/table/css/cell.css" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/table/css/cell.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/table/cell.htm" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/table/cell.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/table/js/cell.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/table/js/cell.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/charmap.htm" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/charmap.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/js/charmap.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/js/charmap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/cite.htm" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/cite.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/js/cite.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/js/cite.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/color_picker.htm" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/color_picker.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/examples/css/content.css" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/examples/css/content.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/spellchecker/css/content.css" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/spellchecker/css/content.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/default/content.css" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/default/content.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/highcontrast/content.css" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/highcontrast/content.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/o2k7/content.css" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/o2k7/content.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/themes/simple/skins/default/content.css" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/themes/simple/skins/default/content.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/themes/simple/skins/o2k7/content.css" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/themes/simple/skins/o2k7/content.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/examples/custom_formats.html" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/examples/custom_formats.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/grappelli/langs/de.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/grappelli/langs/de.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/grappelli_contextmenu/langs/de.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/grappelli_contextmenu/langs/de.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/del.htm" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/del.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/js/del.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/js/del.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/default/dialog.css" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/default/dialog.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/highcontrast/dialog.css" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/highcontrast/dialog.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/o2k7/dialog.css" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/o2k7/dialog.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/example/dialog.htm" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/example/dialog.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/example/js/dialog.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/example/js/dialog.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/utils/editable_selects.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/utils/editable_selects.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/advhr/editor_plugin_src.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/advhr/editor_plugin_src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/advimage/editor_plugin_src.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/advimage/editor_plugin_src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/advimage_orig/editor_plugin_src.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/advimage_orig/editor_plugin_src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/advlink/editor_plugin_src.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/advlink/editor_plugin_src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/advlink_orig/editor_plugin_src.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/advlink_orig/editor_plugin_src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/advlist/editor_plugin_src.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/advlist/editor_plugin_src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/autosave/editor_plugin_src.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/autosave/editor_plugin_src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/bbcode/editor_plugin_src.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/bbcode/editor_plugin_src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/contextmenu/editor_plugin_src.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/contextmenu/editor_plugin_src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/directionality/editor_plugin_src.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/directionality/editor_plugin_src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/editor_plugin_src.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/editor_plugin_src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/example/editor_plugin_src.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/example/editor_plugin_src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/fullpage/editor_plugin_src.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/fullpage/editor_plugin_src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/fullscreen/editor_plugin_src.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/fullscreen/editor_plugin_src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/iespell/editor_plugin_src.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/iespell/editor_plugin_src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/inlinepopups/editor_plugin_src.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/inlinepopups/editor_plugin_src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/insertdatetime/editor_plugin_src.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/insertdatetime/editor_plugin_src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/layer/editor_plugin_src.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/layer/editor_plugin_src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/legacyoutput/editor_plugin_src.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/legacyoutput/editor_plugin_src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/media/editor_plugin_src.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/media/editor_plugin_src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/media_orig/editor_plugin_src.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/media_orig/editor_plugin_src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/nonbreaking/editor_plugin_src.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/nonbreaking/editor_plugin_src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/noneditable/editor_plugin_src.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/noneditable/editor_plugin_src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/pagebreak/editor_plugin_src.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/pagebreak/editor_plugin_src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/paste/editor_plugin_src.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/paste/editor_plugin_src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/paste_orig/editor_plugin_src.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/paste_orig/editor_plugin_src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/print/editor_plugin_src.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/print/editor_plugin_src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/save/editor_plugin_src.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/save/editor_plugin_src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/searchreplace/editor_plugin_src.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/searchreplace/editor_plugin_src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/searchreplace_orig/editor_plugin_src.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/searchreplace_orig/editor_plugin_src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/style/editor_plugin_src.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/style/editor_plugin_src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/template/editor_plugin_src.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/template/editor_plugin_src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/template_orig/editor_plugin_src.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/template_orig/editor_plugin_src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/visualblocks/editor_plugin_src.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/visualblocks/editor_plugin_src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/visualchars/editor_plugin_src.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/visualchars/editor_plugin_src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/wordcount/editor_plugin_src.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/wordcount/editor_plugin_src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/editor_plugin_src.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/editor_plugin_src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/editor_template_src.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/editor_template_src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/themes/simple/editor_template_src.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/themes/simple/editor_template_src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/js/element_common.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/js/element_common.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/media/js/embed.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/media/js/embed.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/media_orig/js/embed.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/media_orig/js/embed.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/preview/jscripts/embed.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/preview/jscripts/embed.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/emotions.htm" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/emotions.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/js/emotions.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/js/emotions.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/example/langs/en.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/example/langs/en.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/grappelli/langs/en.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/grappelli/langs/en.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/grappelli_contextmenu/langs/en.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/grappelli_contextmenu/langs/en.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/example/langs/en_dlg.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/example/langs/en_dlg.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/preview/example.html" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/preview/example.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/utils/form_utils.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/utils/form_utils.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/grappelli/langs/fr.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/grappelli/langs/fr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/grappelli_contextmenu/langs/fr.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/grappelli_contextmenu/langs/fr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/examples/full.html" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/examples/full.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/fullpage/css/fullpage.css" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/fullpage/css/fullpage.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/fullpage/fullpage.htm" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/fullpage/fullpage.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/fullpage/js/fullpage.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/fullpage/js/fullpage.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/fullscreen/fullscreen.htm" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/fullscreen/fullscreen.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/advimage/image.htm" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/advimage/image.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/advimage_orig/image.htm" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/advimage_orig/image.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/image.htm" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/image.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/advimage/js/image.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/advimage/js/image.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/advimage_orig/js/image.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/advimage_orig/js/image.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/js/image.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/js/image.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/examples/lists/image_list.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/examples/lists/image_list.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/examples/index.html" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/examples/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/ins.htm" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/ins.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/js/ins.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/js/ins.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/examples/templates/layout1.htm" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/examples/templates/layout1.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/license.txt" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/license.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/advlink/link.htm" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/advlink/link.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/advlink_orig/link.htm" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/advlink_orig/link.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/js/link.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/js/link.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/examples/lists/link_list.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/examples/lists/link_list.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/utils/mctabs.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/utils/mctabs.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/media/css/media.css" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/media/css/media.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/media_orig/css/media.css" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/media_orig/css/media.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/media/media.htm" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/media/media.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/media_orig/media.htm" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/media_orig/media.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/media/js/media.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/media/js/media.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/media_orig/js/media.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/media_orig/js/media.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/examples/lists/media_list.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/examples/lists/media_list.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/examples/menu.html" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/examples/menu.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/table/merge_cells.htm" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/table/merge_cells.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/table/js/merge_cells.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/table/js/merge_cells.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/paste/pastetext.htm" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/paste/pastetext.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/paste_orig/pastetext.htm" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/paste_orig/pastetext.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/paste/js/pastetext.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/paste/js/pastetext.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/paste_orig/js/pastetext.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/paste_orig/js/pastetext.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/paste/pasteword.htm" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/paste/pasteword.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/paste_orig/pasteword.htm" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/paste_orig/pasteword.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/paste/js/pasteword.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/paste/js/pasteword.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/paste_orig/js/pasteword.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/paste_orig/js/pasteword.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/grappelli/langs/pl.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/grappelli/langs/pl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/grappelli_contextmenu/langs/pl.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/grappelli_contextmenu/langs/pl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/css/popup.css" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/css/popup.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/preview/preview.html" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/preview/preview.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/style/css/props.css" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/style/css/props.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/style/js/props.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/style/js/props.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/table/css/row.css" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/table/css/row.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/table/row.htm" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/table/row.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/table/js/row.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/table/js/row.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/advhr/rule.htm" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/advhr/rule.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/advhr/js/rule.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/advhr/js/rule.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/searchreplace/css/searchreplace.css" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/searchreplace/css/searchreplace.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/searchreplace_orig/css/searchreplace.css" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/searchreplace_orig/css/searchreplace.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/searchreplace/searchreplace.htm" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/searchreplace/searchreplace.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/searchreplace_orig/searchreplace.htm" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/searchreplace_orig/searchreplace.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/searchreplace/js/searchreplace.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/searchreplace/js/searchreplace.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/searchreplace_orig/js/searchreplace.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/searchreplace_orig/js/searchreplace.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/shortcuts.htm" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/shortcuts.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/examples/simple.html" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/examples/simple.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/examples/skins.html" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/examples/skins.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/examples/templates/snippet1.htm" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/examples/templates/snippet1.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/source_editor.htm" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/source_editor.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/js/source_editor.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/js/source_editor.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/table/css/table.css" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/table/css/table.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/table/table.htm" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/table/table.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/table/js/table.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/table/js/table.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/template/css/template.css" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/template/css/template.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/template_orig/css/template.css" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/template_orig/css/template.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/inlinepopups/template.htm" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/inlinepopups/template.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/template/template.htm" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/template/template.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/template_orig/template.htm" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/template_orig/template.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/template/js/template.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/template/js/template.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/template_orig/js/template.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/template_orig/js/template.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/examples/lists/template_list.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/examples/lists/template_list.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/tiny_mce_src.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/tiny_mce_src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/default/ui.css" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/default/ui.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/highcontrast/ui.css" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/highcontrast/ui.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/o2k7/ui.css" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/o2k7/ui.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/themes/simple/skins/default/ui.css" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/themes/simple/skins/default/ui.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/themes/simple/skins/o2k7/ui.css" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/themes/simple/skins/o2k7/ui.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/o2k7/ui_black.css" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/o2k7/ui_black.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/o2k7/ui_silver.css" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/o2k7/ui_silver.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/utils/validate.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/utils/validate.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/visualblocks/css/visualblocks.css" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/jscripts/tiny_mce/plugins/visualblocks/css/visualblocks.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/examples/css/word.css" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/examples/css/word.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/examples/word.html" afterPath="$PROJECT_DIR$/hlusupportivelearning/static_media/grappelli/tinymce/examples/word.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account/urls.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/findinggroup/urls.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/news/urls.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studentinfo/urls.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topic/urls.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/urls.py" afterPath="$PROJECT_DIR$/hlusupportivelearning/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/account/views.py" afterPath="$PROJECT_DIR$/account/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/findinggroup/views.py" afterPath="$PROJECT_DIR$/findinggroup/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/news/views.py" afterPath="$PROJECT_DIR$/news/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/studentinfo/views.py" afterPath="$PROJECT_DIR$/studentinfo/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/topic/views.py" afterPath="$PROJECT_DIR$/topic/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="hlusupportivelearning.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -211,33 +38,57 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hlusupportivelearning/settings.py">
+      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hlusupportivelearning/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1845">
-              <caret line="33" column="3" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="models.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/findinggroup/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.62068963" vertical-offset="120" max-vertical-offset="780">
-              <caret line="26" column="39" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
+              <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
               <folding>
-                <element signature="e#0#40#0" expanded="true" />
+                <element signature="e#0#36#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hlusupportivelearning/urls.py">
+      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/account/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
-              <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
+              <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+              <folding>
+                <element signature="e#0#36#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/findinggroup/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
+              <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#36#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/news/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
+              <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/topic/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.08810572" vertical-offset="0" max-vertical-offset="681">
+              <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -266,8 +117,20 @@
         <option value="$PROJECT_DIR$/account/models.py" />
         <option value="$PROJECT_DIR$/findinggroup/admin.py" />
         <option value="$PROJECT_DIR$/findinggroup/models.py" />
-        <option value="$PROJECT_DIR$/hlusupportivelearning/urls.py" />
         <option value="$PROJECT_DIR$/hlusupportivelearning/settings.py" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/account/urls.py" />
+        <option value="$PROJECT_DIR$/findinggroup/urls.py" />
+        <option value="$PROJECT_DIR$/studentinfo/urls.py" />
+        <option value="$PROJECT_DIR$/studentinfo/views.py" />
+        <option value="$PROJECT_DIR$/topic/urls.py" />
+        <option value="$PROJECT_DIR$/news/urls.py" />
+        <option value="$PROJECT_DIR$/hlusupportivelearning/urls.py" />
+        <option value="$PROJECT_DIR$/hlusupportivelearning/views.py" />
+        <option value="$PROJECT_DIR$/account/views.py" />
+        <option value="$PROJECT_DIR$/findinggroup/views.py" />
+        <option value="$PROJECT_DIR$/news/views.py" />
+        <option value="$PROJECT_DIR$/topic/views.py" />
       </list>
     </option>
   </component>
@@ -322,7 +185,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -351,18 +213,119 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="topic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hlusupportivelearning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hlusupportivelearning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studentinfo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hlusupportivelearning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hlusupportivelearning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="news" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hlusupportivelearning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hlusupportivelearning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hlusupportivelearning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hlusupportivelearning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hlusupportivelearning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="findinggroup" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hlusupportivelearning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hlusupportivelearning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="account" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="90" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="92" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="95" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="889" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="90" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="92" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="95" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="889" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
       <console-settings />
     </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/topic" />
+      <recent name="$PROJECT_DIR$/studentinfo" />
+      <recent name="$PROJECT_DIR$/findinggroup" />
+      <recent name="$PROJECT_DIR$/news" />
+      <recent name="$PROJECT_DIR$/hlusupportivelearning" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/account" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="tests" factoryName="py.test">
@@ -515,14 +478,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="71" y="22" width="1209" height="778" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32863188" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24896608" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14888337" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -530,11 +492,12 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.325811" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32863188" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -565,7 +528,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
           <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -573,7 +535,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="540">
           <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -599,7 +560,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="390">
           <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
-          <folding />
+          <folding>
+            <element signature="e#0#51#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -607,7 +570,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="180">
           <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -615,7 +577,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="360">
           <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -630,7 +591,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.1" vertical-offset="15600" max-vertical-offset="21285">
           <caret line="1068" column="6" selection-start-line="1068" selection-start-column="6" selection-end-line="1068" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -645,7 +605,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.17621145" vertical-offset="0" max-vertical-offset="681">
           <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -653,12 +612,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
           <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-            <marker date="1408545780000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1408545780000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1408545780000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -666,15 +619,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.8372093" vertical-offset="6000" max-vertical-offset="6645">
           <caret line="451" column="0" selection-start-line="451" selection-start-column="0" selection-end-line="451" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/topic/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="681">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -692,9 +636,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
           <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#28#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -702,9 +643,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.19823788" vertical-offset="0" max-vertical-offset="681">
           <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#32#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -712,7 +650,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
           <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -720,9 +657,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
           <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
-          <folding>
-            <element signature="e#0#32#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -730,14 +664,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
           <caret line="30" column="32" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/findinggroup/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="780">
+          <caret line="26" column="39" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hlusupportivelearning/urls.py">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
-          <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
           <folding />
         </state>
       </provider>
@@ -750,13 +691,125 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/findinggroup/models.py">
+    <entry file="file:///Library/Python/2.7/site-packages/django/conf/urls/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.62068963" vertical-offset="120" max-vertical-offset="780">
-          <caret line="26" column="39" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="577" max-vertical-offset="975">
+          <caret line="50" column="4" selection-start-line="50" selection-start-column="4" selection-end-line="50" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/account/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
           <folding>
-            <element signature="e#0#40#0" expanded="true" />
+            <element signature="e#0#51#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/findinggroup/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
+          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/topic/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="681">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studentinfo/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1591512" vertical-offset="0" max-vertical-offset="377">
+          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studentinfo/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.16949153" vertical-offset="0" max-vertical-offset="354">
+          <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/topic/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2387268" vertical-offset="0" max-vertical-offset="377">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/news/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.084745765" vertical-offset="0" max-vertical-offset="354">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hlusupportivelearning/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3524229" vertical-offset="0" max-vertical-offset="681">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#51#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hlusupportivelearning/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/account/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
+          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/findinggroup/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/news/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
+          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/topic/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.08810572" vertical-offset="0" max-vertical-offset="681">
+          <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+          <folding />
         </state>
       </provider>
     </entry>
