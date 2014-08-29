@@ -112,7 +112,65 @@ STATICFILES_DIRS = ( os.path.join(PROJECT_DIR,'static/'),)
 GRAPPELLI_ADMIN_TITLE="HLU"
 GRAPPELLI_SWITCH_USER=True
 GRAPPELLI_CLEAN_INPUT_TYPES=True
-# GRAPPELLI_INDEX_DASHBOARD = 'hlusupportivelearning.dashboard.CustomIndexDashboard'
-# GRAPPELLI_INDEX_DASHBOARD = {  # alternative method
-#     'hlusupportivelearning.admin.admin_site': 'hlusupportivelearning.my_dashboard.CustomIndexDashboard',
-# }
+
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': False,
+    'formatters': {
+        'verbose': {
+            'format' : "[%(asctime)s] %(levelname)s [%(name)s:%(lineno)s] %(message)s",
+            'datefmt' : "%d/%b/%Y %H:%M:%S"
+        },
+        'simple': {
+            'format': '%(levelname)s %(message)s'
+        },
+    },
+    'handlers': {
+        'file': {
+            'level': 'DEBUG',
+            'class': 'logging.FileHandler',
+            'filename': 'hlu.log',
+            'formatter': 'verbose'
+        },
+    },
+    'loggers': {
+        'django': {
+            'handlers':['file'],
+            'propagate': True,
+            'level':'DEBUG',
+        },
+        'account': {
+            'handlers': ['file'],
+            'level': 'DEBUG',
+        },
+        'findinggroup': {
+            'handlers': ['file'],
+            'level': 'DEBUG',
+        },
+        'news': {
+            'handlers': ['file'],
+            'level': 'DEBUG',
+        },
+        'studentinfo': {
+            'handlers': ['file'],
+            'level': 'DEBUG',
+        },
+        'topic': {
+            'handlers': ['file'],
+            'level': 'DEBUG',
+        },
+    }
+}
+
+TEMPLATE_DIRS = (
+    # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
+    # Always use forward slashes, even on Windows.
+    # Don't forget to use absolute paths, not relative paths.
+    os.path.join(PROJECT_DIR, 'templates').replace('\\','/'),
+)
+# List of callables that know how to import templates from various sources.
+TEMPLATE_LOADERS = (
+    'django.template.loaders.filesystem.Loader',
+    'django.template.loaders.app_directories.Loader',
+#     'django.template.loaders.eggs.Loader',
+)
