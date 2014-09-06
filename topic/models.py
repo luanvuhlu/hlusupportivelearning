@@ -8,6 +8,7 @@ class Topic(models.Model):
     content=models.TextField(blank=False)
     created_time=models.DateTimeField(default=datetime.now(), blank=False)
     user=models.ForeignKey(CUser)
+    deactived=models.BooleanField(default=False)
 class TopicView(models.Model):
     view_time=models.DateTimeField(default=datetime.now(), blank=False)
     user=models.ForeignKey(CUser)
@@ -24,3 +25,4 @@ class Comment(models.Model):
     comment_time=models.DateTimeField(default=datetime.now(), blank=False)
     topic=models.ForeignKey(Topic)
     user=models.ForeignKey(CUser)
+    deactived=models.BooleanField(default=False)

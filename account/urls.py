@@ -4,6 +4,9 @@ from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 urlpatterns = patterns('',
     # Examples:
     url(r'^$', 'account.views.home', name='home'),
+    url(r'^settings/', 'account.views.home', name='home'),
+    url(r'^logout/', 'account.views.home', name='home'),
+    url(r'^login/', 'account.views.home', name='home'),
     # url(r'^account/', include('account.urls')),
     # url(r'^grappelli/', include('grappelli.urls')), # grappelli URLS
     # url(r'^select2/', include('django_select2.urls')),

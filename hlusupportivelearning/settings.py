@@ -25,13 +25,14 @@ DEBUG = True
 TEMPLATE_DEBUG = True
 
 ALLOWED_HOSTS = []
-
+PROJECT_DIR=os.path.dirname(__file__)
 
 # Application definition
 
 INSTALLED_APPS = (
     # 'grappelli.dashboard',
     'grappelli',
+    'filebrowser',
     'django_select2',
     'django.contrib.admin',
     'django.contrib.auth',
@@ -39,11 +40,18 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'debug_toolbar',
+    'notification',
+    'ckeditor',
+    'treemenus',
+    'easy_thumbnails',
     'account',
     'findinggroup',
     'news',
+    'filemanager',
     'studentinfo',
     'topic',
+    'timetable',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -53,6 +61,7 @@ MIDDLEWARE_CLASSES = (
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'debug_toolbar.middleware.DebugToolbarMiddleware',
 )
 
 ROOT_URLCONF = 'hlusupportivelearning.urls'
@@ -69,6 +78,17 @@ DATABASES = {
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
+# settings.py
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.mysql',
+#         'NAME': 'hlu',
+#         'USER': 'root',
+#         'PASSWORD': '',
+#         'HOST': 'localhost',
+#         'PORT': '3306',
+#     }
+# }
 
 # Internationalization
 # https://docs.djangoproject.com/en/1.6/topics/i18n/
@@ -91,7 +111,6 @@ STATIC_URL = '/static/'
 
 # Add new lines
 AUTH_USER_MODEL = 'account.CUser'
-PROJECT_DIR=os.path.dirname(__file__)
 STATICFILES_FINDERS = (
     'django.contrib.staticfiles.finders.AppDirectoriesFinder',
     'django.contrib.staticfiles.finders.FileSystemFinder',
@@ -168,9 +187,31 @@ TEMPLATE_DIRS = (
     # Don't forget to use absolute paths, not relative paths.
     os.path.join(PROJECT_DIR, 'templates').replace('\\','/'),
 )
+
 # List of callables that know how to import templates from various sources.
 TEMPLATE_LOADERS = (
     'django.template.loaders.filesystem.Loader',
     'django.template.loaders.app_directories.Loader',
 #     'django.template.loaders.eggs.Loader',
 )
+
+INTERNAL_IPS='127.0.0.1'
+DEBUG_TOOLBAR_PANELS = [
+    # 'debug_toolbar.panels.versions.VersionsPanel',
+    'debug_toolbar.panels.timer.TimerPanel',
+    'debug_toolbar.panels.settings.SettingsPanel',
+    'debug_toolbar.panels.headers.HeadersPanel',
+    'debug_toolbar.panels.request.RequestPanel',
+    'debug_toolbar.panels.sql.SQLPanel',
+    'debug_toolbar.panels.staticfiles.StaticFilesPanel',
+    'debug_toolbar.panels.templates.TemplatesPanel',
+    'debug_toolbar.panels.cache.CachePanel',
+    'debug_toolbar.panels.signals.SignalsPanel',
+    'debug_toolbar.panels.logging.LoggingPanel',
+    'debug_toolbar.panels.redirects.RedirectsPanel',
+]
+
+CKEDITOR_UPLOAD_PATH = "uploads/ckeditor/"
+CKEDITOR_SLUGIFY_FILENAME=True
+MEDIA_ROOT= os.path.join(PROJECT_DIR,'media/')
+MEDIA_URL='/media/'

@@ -1,3 +1,4 @@
+{% load tree_menu_tags %}   
 <!DOCTYPE html>
 <html>
 <head>
@@ -12,76 +13,105 @@
     {% load static %}
     <script src="{% static 'jquery/jquery-1.11.1.js' %}"></script>
     <link rel="stylesheet" href="{% static 'css/main.css' %}" type="text/css" media="screen"/>
-    <link rel="stylesheet" href="{% static 'jquery-ui/jquery-ui-1.10.4.custom.css' %}" type="text/css"
+    <link rel="stylesheet" href="{% static 'jquery-ui/css/ui-lightness/jquery-ui-1.10.4.css' %}" type="text/css"
           media="screen"/>
     <link rel="stylesheet" href="{% static 'bootstrap/css/bootstrap.css' %}" type="text/css" media="screen"/>
     {% block static %}
     {% endblock %}
 </head>
 <body>
-<div class="container">
+    {% include 'facebook_root.html' %}
+<div class="container-fluid">
     <!-- Static navbar -->
     <div class="navbar navbar-default" role="navigation">
-        <div class="container-fluid">
+        
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="sr-only">Toggle navigation</span>
+                    <span class="sr-only"><!--Toggle navigation--></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand" href="/">HLU</a>
+                 <form class="navbar-form navbar-left hidden-lg hidden-md hidden-sm" role="search" action="/search">
+                    <div class="input-group">
+                      <input type="text" name="q" class="form-control" placeholder="Let's find magic">
+                      <span class="input-group-btn">
+                        <button type="submit" class="btn btn-default">
+                          <span class="glyphicon glyphicon-search"></span>
+                        </button>
+                      </span>
+                    </div>
+                </form>
             </div>
             <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    {% if user.is_authenticated %}
-                        <li class="active"><a href="/profile/">Profile</a></li>
-                        <li><a href="/tt/">TimeTable</a></li>
-                        <li><a href="#">A-Q</a></li>
-                        {% if AQtags %}
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">A-Q <b class="caret"></b></a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="#">All</a></li>
-                                    <li><a href="#">Another action</a></li>
-                                    <li><a href="#">Something else here</a></li>
-                                    <li class="divider"></li>
-                                    <li class="dropdown-header">Nav header</li>
-                                    <li><a href="#">Separated link</a></li>
-                                    <li><a href="#">One more separated link</a></li>
-                                </ul>
-                            </li>
-                        {% endif %}
-                    {% endif %}
-                </ul>
+                {% show_menu "top menu" %}
+                 <form class="navbar-form form-inline  navbar-left hidden-xs" role="search" action="/search">
+                    <div class="input-group">
+                      <input type="text" name="q" class="form-control" placeholder="Let's find magic">
+                      <span class="input-group-btn">
+                        <button type="submit" class="btn btn-default">
+                          <span class="glyphicon glyphicon-search"></span>
+                        </button>
+                      </span>
+                    </div>
+                </form>
                 <ul class="nav navbar-nav navbar-right">
                     {% if not user.is_authenticated %}
                         <li><a href="#">Sign up</a></li>
                         <li><a href="/login/">Login</a></li>
                     {% else %}
-                        <li><a href="#" id="notification">Notification<span id="notification-count" data-count="0"></span></a></li>
-                        <li><a href="/profile/">{{ user }}</a></li>
+                        <li><a href="/student/">{{ user }}</a></li>
                         <li>
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown"><b class="caret"></b></a>
                             <ul class="dropdown-menu">
-                                <li><a href="/settings/">Settings</a></li>
-                                <li><a href="/logout/">Logout</a></li>
+                                <li><a href="/account/settings/">Settings</a></li>
+                                <li><a href="/account/logout/">Logout</a></li>
                             </ul>
                         </li>
-
                     {% endif %}
                 </ul>
             </div>
             <!--/.nav-collapse -->
-        </div>
-        <!--/.container-fluid -->
     </div>
-    {% block content %}{% endblock %}
+
+    <!-- Search field -->
+    <div class="row">
+        {% block left %}
+            <div class="col-md-3">
+                here
+            </div>
+        {% endblock %}
+        {% block content %}
+            <div class="col-md-6">
+                here
+            </div>
+        {% endblock %}
+        {% block right %}
+            <div class="news col-md-3 col-sm-3">
+                {% if news %}
+                <div><h3>Something You need</h3></div>
+                    {% for n in news %}
+                        <div class='news-title'>
+                            <a href="{% url 'view_news_detail' n.id %}"><b>{{n.title}}</b></a>
+                            {% if n.seen %}
+                                <span class='glyphicon glyphicon-ok small'></span>
+                            {% endif %}
+                        </div>
+                        <!-- <div class='news-header visible-lg-block visible-md-block'>
+                            {% autoescape off %}
+                                {{n.header}}
+                            {% endautoescape %}
+                        </div> -->
+                    {% endfor %}
+                {% endif %}
+                </div>
+        {% endblock %}
+    </div>
 </div>
-{% load static %}
 <script src={% static 'bootstrap/js/bootstrap.js' %}></script>
-<script src={% static 'jquery-ui/jquery-ui-1.10.4.custom.js' %}></script>
-<!--<script src={% static 'js/main.js' %}></script>-->
+<script src={% static 'jquery-ui/js/jquery-ui-1.10.4.js' %}></script>
+<script src={% static 'js/main.js' %}></script>
 
 <!-- AJAX
 <script type="text/javascript" src="{% static 'django_ajax/js/jquery.ajax.min.js' %}"></script>
@@ -120,8 +150,6 @@
 
     })
     }
-
-
 </script>
 -->
 </body>

@@ -1,0 +1,17 @@
+{% load tree_menu_tags %}
+<li>
+{% if menu_item.has_children %}
+     <li class="dropdown">
+     <a href="#" class="dropdown-toggle" data-toggle="dropdown">{{ menu_item.caption }}
+     	<b class="caret"></b>
+     </a>
+    <ul class="dropdown-menu">
+        {% for child_item in menu_item.children %}
+        	{% show_menu_item child_item %}
+        {% endfor %}
+    </ul>
+	</li>
+	{% else %}
+	<a href="{{ menu_item.url }}" alt="{{ menu_item.named_url }}">{{ menu_item.caption }}</a>
+{% endif %}
+</li>

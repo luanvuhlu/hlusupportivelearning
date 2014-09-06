@@ -1,0 +1,54 @@
+{% extends "base.html" %}
+{% block title %}
+	{% if search|length  > 10 %}
+		Search - {{search|slice:":10"}}...
+	{% else %}
+		Search - {{search}}
+	{% endif %}
+{% endblock %}
+{% block left %}
+<div class="col-md-2">
+</div>
+{% endblock %}
+{% block content %}
+<div class="col-md-7">
+    <div class="search-key">
+        Search for <b>"{{search}}"</b>:
+    </div>
+    {% if news_search %}
+    <ol class="search-result">
+        {% for n in news_search %}
+        <li>
+            <div class='news-title'>
+                <b><a href="{% url 'view_news_detail' n.id %}">{{n.title}}</a></b>
+            </div>
+            <div class='news-header visible-lg-block visible-md-block'>
+                {% autoescape off %}
+                    {{n.header}}
+                {% endautoescape %}
+            </div>
+        </li>
+        {% endfor %}
+    </ol>
+    <div class="pagination">
+    <span class="step-links">
+        {% if news_search.has_previous %}
+            <a href="?page={{ news_search.previous_page_number }}">previous</a>
+        {% endif %}
+        
+        <span class="current">
+            Page {{ news_search.number }} of {{ news_search.paginator.num_pages }}.
+        </span>
+
+        {% if news_search.has_next %}
+            <a href="?page={{ news_search.next_page_number }}">next</a>
+        {% endif %}
+    </span>
+</div>
+    {% else %}	
+    	<div class='no-result'>
+    		No result
+    	</div>
+    {% endif %}
+</div>
+{% endblock %}
