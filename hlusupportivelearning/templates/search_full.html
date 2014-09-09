@@ -31,20 +31,20 @@
         {% endfor %}
     </ol>
     <div class="pagination">
-    <span class="step-links">
-        {% if news_search.has_previous %}
-            <a href="?page={{ news_search.previous_page_number }}">previous</a>
-        {% endif %}
-        
-        <span class="current">
-            Page {{ news_search.number }} of {{ news_search.paginator.num_pages }}.
-        </span>
+        <span class="step-links">
+            {% if news_search.has_previous %}
+                <a href="?page={{ news_search.previous_page_number }}">previous</a>
+            {% endif %}
 
-        {% if news_search.has_next %}
-            <a href="?page={{ news_search.next_page_number }}">next</a>
-        {% endif %}
-    </span>
-</div>
+            <span class="current">
+                Page {{ news_search.number }} of {{ news_search.paginator.num_pages }}.
+            </span>
+
+            {% if news_search.has_next %}
+                <a href="?page={{ news_search.next_page_number }}">next</a>
+            {% endif %}
+        </span>
+    </div>
     {% else %}	
     	<div class='no-result'>
     		No result

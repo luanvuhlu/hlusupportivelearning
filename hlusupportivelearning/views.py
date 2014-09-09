@@ -11,7 +11,7 @@ NEWS_PER_PAGE=30
 log=logging.getLogger(__name__)
 # Create your views here.
 def get_new_news_list(user=None):
-    news=News.objects.filter(visible=True).order_by('created_time')[:10]
+    news=News.objects.filter(public='Y', deactived=False).order_by('created_time')[:10]
     news_list=[]
     for n in news:
         news_list.append(NewsObject(user, n))
@@ -21,7 +21,7 @@ class NewsObject:
         self.id=news.id
         self.title=news.title
         if not user:
-            self.seen=False 
+            self.seen=False
         else:
             try:
                 news_view=NewsView.objects.filter(news=news, user=user)

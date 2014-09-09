@@ -46,12 +46,14 @@ INSTALLED_APPS = (
     'treemenus',
     'easy_thumbnails',
     'account',
+    'document',
+    'filemanager',
     'findinggroup',
     'news',
-    'filemanager',
     'studentinfo',
-    'topic',
+    'tag',
     'timetable',
+    'topic',
 )
 
 MIDDLEWARE_CLASSES = (

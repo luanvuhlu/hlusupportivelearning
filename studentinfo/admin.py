@@ -3,13 +3,21 @@ from models import Course, Speciality, Student, UClass
 # Register your models here.
 
 class CourseAdmin(admin.ModelAdmin):
-    pass
+    def delete_model(self, request, obj):
+        obj.deactived=True
+        obj.save()
 class SpecialityAdmin(admin.ModelAdmin):
-    pass
+    def delete_model(self, request, obj):
+        obj.deactived=True
+        obj.save()
 class StudentAdmin(admin.ModelAdmin):
-    pass
+    def delete_model(self, request, obj):
+        obj.deactived=True
+        obj.save()
 class UClassAdmin(admin.ModelAdmin):
-    pass
+    def delete_model(self, request, obj):
+        obj.deactived=True
+        obj.save()
 
 # Register site
 admin.site.register(Course, CourseAdmin)

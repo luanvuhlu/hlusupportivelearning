@@ -7,12 +7,9 @@
 	{% if news_detail %}
 		<div class='news col-md-9'>
 			<div class='news-title'>
-				<h3>
+				<span class='text-primary {% if news_detail.seen %}text-info{% endif %}'>
 					{{news_detail.news.title}}
-					{% if news_detail.seen %}
-						<span class='glyphicon glyphicon-ok small'></span>
-					{% endif %}
-				</h3>
+				</span>
 			</div>
 			<div class='row'>
 				<div class='news-time col-md-4'>

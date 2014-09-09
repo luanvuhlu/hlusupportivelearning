@@ -6,16 +6,16 @@ from ckeditor.fields import RichTextField
 from filemanager.models import FileStorage
 from tag.models import Tag
 
-PUBLIC_YN=(('Y', 'Y', ('N', 'N')))
-YN=(('Y', 'Y', ('N', 'N')))
+PUBLIC_YN=(('Y', 'Y'), ('N', 'N'))
+YN=(('Y', 'Y'), ('N', 'N'))
 # Create your models here.
 class News(models.Model):
     title=models.CharField(max_length=255, blank=False)
     header=RichTextField(max_length=255,blank=True)
-    content=RichTextField()
+    content=RichTextField(blank=False)
     created_time=models.DateTimeField(default=timezone.now())
     manager=models.ForeignKey(Manager)
-    public=models.CharField(max_length=1, choices=PUBLIC_YN, blank=False)
+    public=models.CharField(max_length=1, choices=PUBLIC_YN, default='Y')
     attach=models.ManyToManyField(FileStorage, blank=True)
     tag=models.ManyToManyField(Tag, blank=True)
     deactived=models.BooleanField(default=False)

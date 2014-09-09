@@ -21,10 +21,9 @@
 </head>
 <body>
     {% include 'facebook_root.html' %}
-<div class="container-fluid">
+<div class="container">
     <!-- Static navbar -->
     <div class="navbar navbar-default" role="navigation">
-        
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                     <span class="sr-only"><!--Toggle navigation--></span>
@@ -32,12 +31,12 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="/">HLU</a>
+                <a class="navbar-brand" href="/"><span class="text-primary">HLU</span></a>
                  <form class="navbar-form navbar-left hidden-lg hidden-md hidden-sm" role="search" action="/search">
                     <div class="input-group">
                       <input type="text" name="q" class="form-control" placeholder="Let's find magic">
                       <span class="input-group-btn">
-                        <button type="submit" class="btn btn-default">
+                        <button type="submit" class="btn btn-primary">
                           <span class="glyphicon glyphicon-search"></span>
                         </button>
                       </span>
@@ -50,7 +49,7 @@
                     <div class="input-group">
                       <input type="text" name="q" class="form-control" placeholder="Let's find magic">
                       <span class="input-group-btn">
-                        <button type="submit" class="btn btn-default">
+                        <button type="submit" class="btn btn-primary">
                           <span class="glyphicon glyphicon-search"></span>
                         </button>
                       </span>
@@ -93,16 +92,10 @@
                 <div><h3>Something You need</h3></div>
                     {% for n in news %}
                         <div class='news-title'>
-                            <a href="{% url 'view_news_detail' n.id %}"><b>{{n.title}}</b></a>
-                            {% if n.seen %}
-                                <span class='glyphicon glyphicon-ok small'></span>
-                            {% endif %}
+                            <a href="{% url 'view_news_detail' n.id %}">
+                                <span class="{% if n.seen %}text-info{% endif %}"><b>{{n.title}}</b></span>
+                            </a>
                         </div>
-                        <!-- <div class='news-header visible-lg-block visible-md-block'>
-                            {% autoescape off %}
-                                {{n.header}}
-                            {% endautoescape %}
-                        </div> -->
                     {% endfor %}
                 {% endif %}
                 </div>

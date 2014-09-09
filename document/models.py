@@ -3,22 +3,22 @@ from django.utils import timezone
 from studentinfo.models import Course, Speciality
 
 # Create your models here.
-PUBLIC_YN=(('Y', 'Y', ('N', 'N')))
-YN=(('Y', 'Y', ('N', 'N')))
+PUBLIC_YN=(('Y', 'Y'), ('N', 'N'))
+YN=(('Y', 'Y'), ('N', 'N'))
 SEMESTER=(('1', '1'), ('2', '2'))
-ASSIGNMENT_TYPE=(('Person', 'P'), ('Group', 'G'), ('Final', 'F'))
-ASSIGNMENT_METHOD=(('Print', 'P'), ('Hand', 'H'))
-SCHEDULE_STUDY_TYPE=(('Theory', 'T'), ('Seminar', 'S'))
-STUDY_DOCUMENT_TYPE=(('Book', 'B'), ('Law', 'L'), ('Website', 'W'))
+ASSIGNMENT_TYPE=(('P', 'Person'), ('G', 'Group'), ('F', 'Final'))
+ASSIGNMENT_METHOD=(('P', 'Print'), ('H', 'Hand'))
+SCHEDULE_STUDY_TYPE=(('T', 'Theory'), ('S', 'Seminar'))
+STUDY_DOCUMENT_TYPE=(('B', 'Book'), ('L', 'Law'), ('W', 'Website'))
 class Subject(models.Model):
     subject_code=models.CharField(max_length=20, blank=False)
     subject_name=models.CharField(max_length=100,blank=False)
     subject_short_name=models.CharField(max_length=30, blank=True)
-    created_time=models.DateTime(default=timezone.now(), blank=False)
+    created_time=models.DateTimeField(default=timezone.now(), blank=False)
     public=models.CharField(max_length=1, choices=PUBLIC_YN, default='Y')
-    course_credit=models.SmallInteger(default=2, blank=False)
+    course_credit=models.SmallIntegerField(default=2, blank=False)
     speciality=models.CharField(max_length=10, blank=True)
-    description=models.CharField(max_length=200)
+    description=models.CharField(max_length=200, blank=True)
     deactived=models.BooleanField(default=False)
     def __unicode__(self):
         if self.subject_short_name:
@@ -26,11 +26,12 @@ class Subject(models.Model):
         return self.subject_code
 class SubjectYear(models.Model):
 	subject=models.ForeignKey(Subject)
-	course=models.ForeignKey(Course)
+	course=models.CharField(max_length=10, blank=True)
 	speciality=models.CharField(max_length=10, blank=True)
+	year=models.CharField(max_length=4, blank=True)
 	deactived=models.BooleanField(default=False)
 	def __unicode__(self):
-		return subject.__str__()+course.__str__()
+		return self.subject.__str__()
 class Document(models.Model):
 	subject=models.ForeignKey(Subject)
 	speciality=models.ForeignKey(Speciality)
@@ -40,33 +41,38 @@ class Document(models.Model):
 	final_exam=models.CharField(max_length=100, blank=True)
 	deactived=models.BooleanField(default=False)
 	def __unicode__(self):
-		return subject.__str__()
+		return self.subject.__str__()
 class AssignmentForm(models.Model):
 	document=models.ForeignKey(Document)
 	type=models.CharField(max_length=2, blank=False, choices=ASSIGNMENT_TYPE)
 	method=models.CharField(max_length=1, blank=False, choices=ASSIGNMENT_METHOD)
-	max_page=models.SmallInteger(blank=True)
-	year=models.DateTime(default=timezone.now())
+	max_page=models.SmallIntegerField(blank=True, default=-1)
+	year=models.CharField(max_length=4, blank=True)
 	note=models.CharField(max_length=45, blank=True)
 	deactived=models.BooleanField(default=False)
 	def __unicode__(self):
-		return document.__str__()
+		return self.document.__str__()
 class ScheduleStudy(models.Model):
+	document=models.ForeignKey(Document)
 	type=models.CharField(max_length=1, choices=SCHEDULE_STUDY_TYPE, blank=False)
-	order_type=models.SmallInteger()
-	order=models.SmallInteger()
+	order_type=models.SmallIntegerField()
+	order=models.SmallIntegerField()
 	requirement=models.CharField(max_length=200, blank=True)
 	study_content=models.CharField(max_length=200, blank=True)
 	assignment=models.CharField(max_length=45, blank=True)
 	note=models.CharField(max_length=45, blank=True)
-	year=models.DateTime(default=timezone.now())
+	year=models.CharField(max_length=4, blank=True)
 	deactived=models.BooleanField(default=False)
+	def __unicode__(self):
+		return self.document.__str__()
 class StudyDocument(models.Model):
 	document=models.ForeignKey(Document)
 	name=models.CharField(max_length=100, blank=False)
-	type-models.CharField(max_length=2, choices=STUDY_DOCUMENT_TYPE, blank=False)
-	compulsory=models.CharField(max_length=1, choices=YN, blank=False)
-	year=models.DateTime(timezone.now())
+	type=models.CharField(max_length=2, choices=STUDY_DOCUMENT_TYPE, blank=False)
+	compulsory=models.CharField(max_length=1, choices=YN, blank=False, default='Y')
+	year=models.CharField(max_length=4, blank=True)
 	deactived=models.BooleanField(default=False)
+	def __unicode__(self):
+		return self.name
 		
 		
