@@ -24,6 +24,10 @@ class Subject(models.Model):
         if self.subject_short_name:
             return self.subject_short_name
         return self.subject_code
+    def get_name(self):
+        if self.subject_short_name:
+            return self.subject_short_name
+        return self.subject_name
 class SubjectYear(models.Model):
 	subject=models.ForeignKey(Subject)
 	course=models.CharField(max_length=10, blank=True)

@@ -13,3 +13,5 @@ def home(request):
 
     )
     return HttpResponse(template.render(context))
+def info_view(request, code):
+    return HttpResponse(code)

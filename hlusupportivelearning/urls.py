@@ -2,6 +2,8 @@ from django.conf.urls import patterns, include, url
 from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 from django.contrib import admin
 from filebrowser.sites import site
+from dajaxice.core import dajaxice_autodiscover, dajaxice_config
+dajaxice_autodiscover()
 import settings
 from views import search_full
 admin.autodiscover()
@@ -14,6 +16,7 @@ urlpatterns = patterns('',
     url(r'^topic/', include('topic.urls')),
     url(r'^findinggroup/', include('findinggroup.urls')),
     url(r'^student/', include('studentinfo.urls')),
+    url(r'^document/', include('document.urls')),
     url(r'^letgo/', 'hlusupportivelearning.views.getting_started', name='getting_started'),
     url(r'^search/', search_full),
     # BACK END
@@ -22,6 +25,7 @@ urlpatterns = patterns('',
     url(r'^select2/', include('django_select2.urls')),
     (r'^ckeditor/', include('ckeditor.urls')),
     url(r'^admin/', include(admin.site.urls)),
+    url(dajaxice_config.dajaxice_url, include('dajaxice.urls')),
     # url(r'^tinymce/', include('tinymce.urls')),
 )
 

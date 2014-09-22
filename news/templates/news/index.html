@@ -1,2 +1,43 @@
 {% extends "base.html" %}
 {% block title %}News{% endblock %}
+{% block left %}{% endblock %}
+{% block　content %}
+<div class="col-md-12">
+   {% if news %}
+    <ol class="news-list">
+        {% for n in news %}
+        <li>
+            <div class='news-title'>
+                <b><a href="{% url 'view_news_detail' n.id %}">{{n.title}}</a></b>
+            </div>
+            <div class='news-header visible-lg-block visible-md-block'>
+                {% autoescape off %}
+                    {{n.header}}
+                {% endautoescape %}
+            </div>
+        </li>
+        {% endfor %}
+    </ol>
+    <div class="pagination">
+        <span class="step-links">
+            {% if news.has_previous %}
+                <a href="?page={{ news.previous_page_number }}">previous</a>
+            {% endif %}
+
+            <span class="current">
+                Page {{ news.number }} of {{ news.paginator.num_pages }}.
+            </span>
+
+            {% if news.has_next %}
+                <a href="?page={{ news.next_page_number }}">next</a>
+            {% endif %}
+        </span>
+    </div>
+    {% else %}
+    	<div class='no-result'>
+    		No result
+    	</div>
+    {% endif %}
+</div>
+{% endblock %}
+        {% block right %}{% endblock %}

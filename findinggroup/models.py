@@ -1,4 +1,4 @@
-from datetime import  timedelta
+from datetime import  timedelta, datetime
 from django.utils import timezone
 from django.db import models
 from account.models import CUser
@@ -25,7 +25,6 @@ FINDING_GROUP_STATUS_CHOICES=(
 #             return self.subject_short_name
 #         return self.subject_code
 class FindingGroupNews(models.Model):
-
     subject=models.ForeignKey(Subject)
     user=models.ForeignKey(CUser, verbose_name="Creater")
     finding_group_type=models.CharField(max_length=2, choices=FINDING_GROUP_TYPE_CHOICES, default=FINDING_GROUP_TYPE_CHOICES[0])
@@ -41,6 +40,23 @@ class FindingGroupNews(models.Model):
     deactived=models.BooleanField(default=False)
     def __unicode__(self):
         return self.subject.__str__()
+    @staticmethod
+    def create_group(subject_code, theory, seminar, date_valid, leader_name, phone, email, user):
+        gr=FindingGroupNews()
+        try:
+            subject=Subject.objects.get(deactived=False, public='Y', subject_code=subject_code)
+        except Subject.DoesNotExist:
+            return None
+        gr.subject=subject
+        gr.user=user
+        gr.class_theory=theory
+        gr.class_seminar=seminar
+        date_obj=datetime.strptime(date_valid, '%m/%d/%Y')
+        gr.date_valid_until=date_obj
+        gr.group_leader=leader_name
+        gr.phone=phone
+        gr.email=email
+        return gr
 class GroupMemberUnknown(models.Model):
     full_name=models.CharField(max_length=50, blank=False)
     member_student_code=models.CharField(max_length=7, blank=False)

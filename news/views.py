@@ -2,13 +2,14 @@ from django.http import HttpResponse, Http404
 from django.shortcuts import render
 from hlusupportivelearning.views import get_user
 from django.template import RequestContext, loader
-from datetime import datetime
+from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 import logging
 from django.utils import timezone
 from news.models import News, NewsView, NewsGuestView
 from hlusupportivelearning.views import get_new_news_list
 from entity import NewsDetail
 
+ITEMS_PER_PAGE=30
 log=logging.getLogger(__name__)
 # Create your views here.
 def add_view_count(news, user):
@@ -27,8 +28,18 @@ def add_view_count(news, user):
 		ngv.view_time=timezone.now()
 		ngv.save()
 def home(request):
+    page=request.GET.get('page') and request.GET.get('page') or 1 # if page request does not exist, page=1
     user=get_user(request)
-    news=get_new_news_list(user)
+    # news=get_new_news_list(user)
+    all_news=News.objects.filter(deactived=False, public='Y').order_by('created_time')
+    paginator=Paginator(all_news, ITEMS_PER_PAGE)
+    try:
+        news=paginator.page(page)
+    except PageNotAnInteger:
+        log.debug("Page number not int !")
+    except EmptyPage:
+        log.debug("Page not found !")
+        news = paginator.page(paginator.num_pages)
     template=loader.get_template("news/index.html")
     context=RequestContext(request,
         {
