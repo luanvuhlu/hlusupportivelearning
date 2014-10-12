@@ -1,17 +1,9 @@
 from django.contrib import admin
 from models import News, NewsGuestView, NewsView
-from account.models import Manager
-
 class NewsAdmin(admin.ModelAdmin):
-    readonly_fields=('manager', )
+    readonly_fields=('create_by', )
     def save_model(self, request, obj, form, change):
-        try:
-            manager=Manager.objects.get(user=request.user)
-        except Manager.DoesNotExist:
-            manager=None
-
-        obj.manager = manager
-
+        obj.create_by = request.user
         obj.save()
     def delete_model(self, request, obj):
         obj.deactived=True

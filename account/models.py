@@ -26,7 +26,3 @@ class CUser(AbstractUser):
         if self.alias:
             return self.alias
         return self.username
-class Manager(models.Model):
-    user=models.ForeignKey(CUser)
-    def __unicode__(self):
-        return self.user.__str__()

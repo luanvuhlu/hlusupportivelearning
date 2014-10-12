@@ -10,7 +10,7 @@ function check_exists_code(number, code){
         $('#member-row-'+number+' .btn-add-member').addClass('hidden');
         return;
     }
-    Dajaxice.findinggroup.check_exist_student(set_member_name, {'number':number, 'code':code});
+    Dajaxice.group.check_exist_student(set_member_name, {'number':number, 'code':code});
 
 }
 function set_member_name(member){

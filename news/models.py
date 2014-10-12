@@ -1,6 +1,5 @@
 from django.db import models
 from django.utils import timezone
-from account.models import Manager
 from account.models import CUser
 from ckeditor.fields import RichTextField
 from filemanager.models import FileStorage
@@ -14,7 +13,7 @@ class News(models.Model):
     header=RichTextField(max_length=255,blank=True)
     content=RichTextField(blank=False)
     created_time=models.DateTimeField(default=timezone.now())
-    manager=models.ForeignKey(Manager)
+    create_by=models.ForeignKey(CUser)
     public=models.CharField(max_length=1, choices=PUBLIC_YN, default='Y')
     attach=models.ManyToManyField(FileStorage, blank=True)
     tag=models.ManyToManyField(Tag, blank=True)

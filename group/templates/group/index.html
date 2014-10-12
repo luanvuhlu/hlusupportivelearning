@@ -1,0 +1,85 @@
+{% extends "base.html" %}
+{% block title %}{%if title %}{{title}}{%else%}Find your group{%endif%}{% endblock %}
+{#% block left %#}
+<!--<div class="col-md-3"></div>-->
+{#% endblock %#}
+{% block content %}
+<div class="col-md-6">
+    <div class="row">
+        <span>
+            <a href="?mgr=0">My Groups</a>
+            <a href="?mgr=1">Groups what I am a memember</a>
+            <a href="new">Create new</a>
+        </span>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            {% if groups_list %}
+            {% for group_object in groups_list.groups_list %}
+            <div class="row">
+                <div class="col-md-3 group-subject-name text-primary">
+                    <a href="/document/subject/{{group_object.group.subject.subject_code}}/info/">
+                        {{group_object.group.subject.get_name}}
+                    </a>
+                </div>
+                <div class="col-md-3 class-group text-primary">
+                    N{{group_object.group.class_theory}}{% if group_object.group.class_seminar %}.TL{{group_object.group.class_seminar}}{% endif %}
+                </div>
+                <div class="col-md-3 group-leader text-primary">
+                    {{group_object.group.group_leader}}
+                </div>
+                <div class="col-md-3 group-creater text-primary">
+                    {% if request.user == group_object.group.user %}
+                        <div class="col-md-6 .col-md-offset-6">
+                            <a href="{{group_object.group.id}}/edit/">Edit</a>
+                        </div>
+                    {% else %}
+                        {{group_object.group.user.get_full_name}}
+                    {% endif %}
+                </div>
+                <table class="table table-bordered table-condensed">
+                    <tr>
+                        <th>#</th>
+                        <th>Name</th>
+                        <th>Code</th>
+
+                    </tr>
+                    {% for member in group_object.members %}
+                    <tr>
+                        <td>{{forloop.counter}}</td>
+                        <td>{{member.full_name}}</td>
+                        <td>{{member.member_code}}</td>
+                    </tr>
+                    {% endfor %}
+                    <tr>
+                        <td colspan="3"></td>
+                    </tr>
+
+                </table>
+                </div>
+                {% endfor %}
+                <div class="row">
+                    <div class="col-md-3 pagination">
+                        <span class="step-links">
+                            {% if groups_list.groups_pag.has_previous %}
+                                <a href="?page={{ groups_list.groups_pag.previous_page_number }}">previous</a>
+                            {% endif %}
+
+                            <span class="current">
+                                Page {{ groups_list.groups_pag.number }} of {{ groups_list.groups_pag.paginator.num_pages }}.
+                            </span>
+
+                            {% if groups_list.groups_pag.has_next %}
+                                <a href="?page={{ groups_list.groups_pag.next_page_number }}">next</a>
+                            {% endif %}
+                        </span>
+                    </div>
+                </div>
+
+            {% else %}
+            <div class="text-info">No group</div>
+            {% endif %}
+        </div>
+    </div>
+</div>
+{% endblock %}

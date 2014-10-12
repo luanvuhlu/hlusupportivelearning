@@ -1,6 +1,6 @@
 from django.db import models
 from django.utils import timezone
-from studentinfo.models import Student
+from student.models import Student
 from document.models import Subject
 PUBLIC_YN=(('Y', 'Y'), ('N', 'N'))
 YN=(('Y', 'Y'), ('N', 'N'))

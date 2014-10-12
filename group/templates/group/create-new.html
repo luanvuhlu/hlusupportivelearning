@@ -1,0 +1,226 @@
+{% extends "base.html" %}
+{% block title %}Find your group{% endblock %}
+{#% block left %#}
+<!--<div class="col-md-3"></div>-->
+{#% endblock %#}
+{% block content %}
+<div class="col-md-6">
+    <h2>Create new group</h2>
+    <form class="form-horizontal" role="form" method="post" id="member-form">{% csrf_token %}
+    <div class="row">
+        <h4>Group info</h4>
+        <div class="form-group">
+            <label for="subject-code" class="col-sm-3 control-label">Subject<span class="red-cl"> *</span></label>
+            <div class="col-sm-9">
+                <select class="form-control" required id="subject-code" name="subject-code">
+                    <option value="">Chooice one</option>
+                    {% if all_subjects %}
+                        {% for subject in all_subjects %}
+                            <option
+                                {% if gr and gr.group.subject.subject_code = subject.subject_code %}selected{% endif %}
+                                value="{{subject.subject_code}}" >
+                                {{subject.get_name}} - {{subject.subject_code}}
+                            </option>
+                        {% endfor %}
+                    {% endif %}
+                </select>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="subject-theory" class="col-sm-3 control-label">Theory<span class="red-cl"> *</span></label>
+            <div class="col-sm-9">
+                <input class="form-control" value="{% if gr %}{{gr.group.class_theory}}{% endif %}" required id="subject-theory" name="theory" placeholder="Theory class" />
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="subject-seminar" class="col-sm-3 control-label">Seminar</label>
+            <div class="col-sm-9">
+                <input class="form-control"  value="{% if gr %}{{gr.group.class_seminar}}{% endif %}" id="subject-seminar" name="seminar" placeholder="Seminar class" />
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="group-name" class="col-sm-3 control-label">Name</label>
+            <div class="col-sm-9">
+                <input class="form-control" value="{% if gr %}{{gr.group.group_name}}{% endif %}" id="group-name" name="group-name" placeholder="Group" />
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="date-valid" class="col-sm-3 control-label">Date valid<span class="red-cl"> *</span></label>
+            <div class="col-sm-9">
+                <input type="text" value="{% if gr %}{{gr.group.get_date_until}}{% endif %}" class="form-control datepicker" required id="date-valid" name="date-valid"  placeholder="Date valid" />
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="leader-name" class="col-sm-3 control-label">Full name<span class="red-cl"> *</span></label>
+            <div class="col-sm-9">
+                <input class="form-control" value="{% if gr %}{{gr.group.group_leader}}{% endif %}" required id="leader-name" name="leader-name" placeholder="Full name" />
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="leader-phone" class="col-sm-3 control-label">Phone<span class="red-cl"> *</span></label>
+            <div class="col-sm-9">
+                <input class="form-control" value="{% if gr %}{{gr.group.phone}}{% endif %}" required id="leader-phone" name="leader-phone" placeholder="Phone number" />
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="leader-email" class="col-sm-3 control-label">Email<span class="red-cl"> *</span></label>
+            <div class="col-sm-9">
+                <input type="email" value="{% if gr %}{{gr.group.email}}{% endif %}" class="form-control" required id="leader-email" name="leader-email" placeholder="Email" />
+            </div>
+        </div>
+
+        <hr />
+    </div>
+    <div class="row" id="members">
+        <h4>Member</h4>
+        {% if gr and gr.members %}
+        {% for m in gr.members %}
+            <div class="row" id="member-row-{{ forloop.counter }}">
+            <div class="col-md-2">
+                <div class="input-group">
+                    <input class="form-control input-code" value="{{m.member_code}}" name="code" placeholder="{{m.member_code}}" onblur="check_exists_code({{ forloop.counter }}, this.value, 1)" />
+                </div>
+            </div>
+            <div class="col-md-5">
+                <div class="input-group">
+                    <input class="form-control input-name" value="{{m.full_name}}" name="name" placeholder="{{m.full_name}}" />
+                </div>
+            </div>
+            <input type="hidden" name="found" value="" />
+            <input type="hidden" name="student-code" value="" />
+            <input type="hidden" name="member-id" value="" />
+            <div class="col-md-5 btn-action">
+                <div class="form-group">
+                    <button type="button" class="btn btn-default" onclick="clear_member_field({{ forloop.counter }})">
+                      <span class="glyphicon glyphicon-remove"></span> Clear
+                    </button>
+                    <button type="button" class="btn btn-success hidden btn-add-member" onclick="add_member_field({{ forloop.counter }}, this.value)">
+                      <span class="glyphicon glyphicon-plus"></span> Add
+                    </button>
+                    <button type="button" class="btn btn-success hidden btn-view-member" onclick="view_member_field({{ forloop.counter }})">
+                      <span class="glyphicon glyphicon-zoom-in"></span> View
+                    </button>
+                </div>
+
+            </div>
+            </div>
+        <!--<hr />-->
+        {% endfor %}
+        {% endif %}
+        
+        <div class="col-md-6 .col-md-offset-6" id="btn-action">
+            <button type="submit" class="btn btn-default btn-lg" onclick="return check_form('member-form')">
+              <span class=""></span> Save
+            </button>
+            <button type="button" class="btn btn-default btn-lg" onclick="clear_group_field({% if gr %}1{% else %}0{% endif %})">
+              <span class=""></span> {% if gr %}Back{% else %}Reset{% endif %}
+            </button>
+        </div>
+     </div>
+        <input type="hidden" id="is_exist" value="{% if gr %}1{% else %}0{% endif %}">
+    </form>
+</div>
+<script>
+var memberCount={{member_counter}};
+function remove_member(id, index){
+   $('#member-known-row-'+index).remove();
+   var emptyMember=$('#member-row-'+1).clone();
+   addKeyValue('member-remove', id);
+   memberCount++;
+   emptyMember.attr('id', 'member-known-row-'+memberCount);
+   emptyMember.insertBefore('#btn-action');
+}
+function addKeyValue(key, value){
+    var fr=document.getElementById('member-form');
+    var input = document.createElement('input');
+    input.type = 'hidden';
+    input.name = key;
+    input.value = value;
+    fr.appendChild(input);
+}
+// Clear code and name field of member
+function clear_member_field(number){
+    var id='#member-row-';
+    var input_name=$(id+number+' .input-name');
+    var input_code=$(id+number+' .input-code');
+    input_name.prop('readonly', false);
+    input_name.val('');
+    input_code.prop('readonly', false);
+    input_code.val('');
+    $(id+number+' .btn-view-member').addClass('hidden');
+    $(id+number+' .btn-add-member').addClass('hidden');
+    $(id+number+' .is-member').val('-1');
+}
+function check_exists_code(number, code){
+    // Check exist code
+    var all_codes=$('#members .input-code');
+    var i, j;
+    for (i=0; i<all_codes.length; i++){
+        for(j=i+1; j<all_codes.length; j++){
+            if(all_codes[i].value!='' && all_codes[i].value===all_codes[j].value){
+                //alert('Code is exist !');
+                all_codes[j].style.borderColor='red';
+                //all_codes[j].focus();
+                return;
+            }
+            all_codes[j].style.border='None';
+        }
+    }
+    var id='#member-row-';
+    if(code.length < 6){
+        $(id+number+' .input-name').attr('placeholder', 'Name');
+        $(id+number+' .btn-view-member').addClass('hidden');
+        $(id+number+' .btn-add-member').addClass('hidden');
+        $(id+number+' .is-member').val('-1');
+        return;
+    }
+    Dajaxice.group.check_exist_student(set_member_name, {'number':number, 'code':code});
+
+}
+function set_member_name(member){
+    var id='#member-row-'
+    if(member.type ==1){
+        id='#member-row-';
+    }
+    if(member.code==''){
+        //$(id+member.number+' .input-name').attr('placeholder', 'Name');
+        $(id+member.number+' .btn-view-member').addClass('hidden');
+        $(id+member.number+' .btn-add-member').addClass('hidden');
+        $(id+member.number+' .is-member').val('0');
+        console.log('Cannot find student');
+        return;
+    }
+    //$(id+member.number+' .input-name').attr('placeholder', member.full_name);
+    $(id+member.number+' .btn-view-member').removeClass('hidden');
+    $(id+member.number+' .btn-add-member').removeClass('hidden').prop('value', member.full_name);
+    $(id+member.number+' .btn-add-member').html("<span class='glyphicon glyphicon-plus'></span> "+member.full_name);
+    $(id+member.number+' .is-member').val('0');
+    console.log(member.code+' - '+member.full_name);
+}
+function view_member_field(number){
+    var id='#member-row-'
+    if($('#is_exist').val() =='1'){
+        id='#member-row-'
+    }
+    var code=$(id+number+' .input-code').val();
+    window.open('/student/'+code+'/info/', '_blank');
+}
+function add_member_field(number, value){
+    var id='#member-row-';
+    var input_name=$(id+number+' .input-name');
+    var input_code=$(id+number+' .input-code');
+    input_name.prop('readonly', true);
+    input_code.prop('readonly', true);
+    input_name.val(value);
+    $(id+number+' .is-member').val('1');
+}
+function clear_group_field(type){
+    if(type===1){
+        window.history.back();
+    }
+    for(var i=1; i<=15; i++){
+        clear_member_field(i);
+    }
+}
+</script>
+{% endblock %}

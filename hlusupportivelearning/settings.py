@@ -49,9 +49,9 @@ INSTALLED_APPS = (
     'account',
     'document',
     'filemanager',
-    'findinggroup',
+    'group',
     'news',
-    'studentinfo',
+    'student',
     'tag',
     'timetable',
     'topic',
@@ -166,7 +166,7 @@ LOGGING = {
             'handlers': ['file'],
             'level': 'DEBUG',
         },
-        'findinggroup': {
+        'group': {
             'handlers': ['file'],
             'level': 'DEBUG',
         },
@@ -174,7 +174,7 @@ LOGGING = {
             'handlers': ['file'],
             'level': 'DEBUG',
         },
-        'studentinfo': {
+        'student': {
             'handlers': ['file'],
             'level': 'DEBUG',
         },

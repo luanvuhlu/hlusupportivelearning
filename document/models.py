@@ -1,6 +1,6 @@
 from django.db import models
 from django.utils import timezone
-from studentinfo.models import Course, Speciality
+from student.models import Course
 
 # Create your models here.
 PUBLIC_YN=(('Y', 'Y'), ('N', 'N'))
@@ -38,7 +38,6 @@ class SubjectYear(models.Model):
 		return self.subject.__str__()
 class Document(models.Model):
 	subject=models.ForeignKey(Subject)
-	speciality=models.ForeignKey(Speciality)
 	semester=models.CharField(max_length=2, blank=True, choices=SEMESTER)
 	course=models.CharField(max_length=20, blank=True)
 	year=models.CharField(max_length=4, blank=True)
