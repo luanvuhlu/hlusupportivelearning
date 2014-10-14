@@ -1,7 +1,10 @@
 from django.db import models
+from django.core.exceptions import ValidationError
+from django.core.validators import EmailValidator
 from tag.models import Tag
 from account.models import CUser
-
+import logging
+log=logging.getLogger(__name__)
 # Create your models here.
 PUBLIC_YN=(('Y', 'Y'), ('N', 'N'))
 YN=(('Y', 'Y'), ('N', 'N'))
@@ -49,3 +52,16 @@ class Student(models.Model):
     tags=models.ManyToManyField(Tag, blank=True)
     def __unicode__(self):
         return self.code
+    def clean(self):
+        if self.code and len(self.code) < 6:
+            log.debug('Code is invalid')
+            raise ValidationError('Code is invalid.')
+        try:
+            st=Student.objects.filter(code=self.code)
+            if st:
+                raise ValidationError('Code is already exist.')
+        except Exception as e:
+            log.debug(e.message.__str__())
+
+
+

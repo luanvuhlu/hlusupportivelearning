@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block title %}Student Info{% endblock %}
+{#% block left %#}
+<!--<div class="col-md-3"></div>-->
+{#% endblock %#}
+{% block content %}
+<div class="col-md-6">
+    <div class="row">
+        {% if errors %}
+            {% for err in errors.list %}
+                <div>{{err}}</div>
+            {% endfor %}
+        {% endif %}
+        {% if student %}
+            <a href="{% url 'edit-student' student.code%}">Edit</a>
+            {{student.code}}
+        {% endif %}
+    </div>
+</div>
+{% endblock %}

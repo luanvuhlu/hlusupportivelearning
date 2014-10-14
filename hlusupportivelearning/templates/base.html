@@ -1,5 +1,5 @@
 {% load tree_menu_tags %}
-{% load dajaxice_templatetags %}
+{#% load dajaxice_templatetags %#}
 <!DOCTYPE html>
 <html>
 <head>
@@ -10,7 +10,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <title>{% block title %}{% endblock %}</title>
-    {% dajaxice_js_import %}
+    {#% dajaxice_js_import %#}
     {% load static %}
     <script src="{% static 'jquery/jquery-1.11.1.js' %}"></script>
     <link rel="stylesheet" href="{% static 'css/main.css' %}" type="text/css" media="screen"/>

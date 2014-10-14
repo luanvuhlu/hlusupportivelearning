@@ -4,8 +4,10 @@ from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 urlpatterns = patterns('',
     # Examples:
     url(r'^$', 'student.views.home', name='home'),
-    url(r'^create/$', 'student.views.create_student_view'),
-    url(r'^(?P<code>\w+)/info/$', 'student.views.info_view'),
+    url(r'^create/$', 'student.views.create_view', name='create-student'),
+    url(r'^(?P<code>\w+)/info/$', 'student.views.info_view', name='student-info'),
+    url(r'^info/$', 'student.views.my_student', name='student-info'),
+    url(r'^(?P<code>\w+)/edit/$', 'student.views.edit_view', name='edit-student'),
 
     # url(r'^account/', include('account.urls')),
     # url(r'^grappelli/', include('grappelli.urls')), # grappelli URLS
