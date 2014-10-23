@@ -2,373 +2,113 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10f7b718-80ed-4ae4-9462-d158fc0a126b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/media/uploads/ckeditor/2014/10/23/2014-10-18-020459.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/media/uploads/ckeditor/2014/10/23/2014-10-18-212557.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/media/uploads/files/2014-10-18_21.37.31.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/media/uploads/files/2014-10-18_21.37.31_admin_thumbnail.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/media/uploads/files/2014-10-18_21.37.31_small.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/link/images/anchor.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/link/images/hidpi/anchor.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/smiley/images/angel_smile.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/smiley/images/angel_smile.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/smiley/images/angry_smile.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/smiley/images/angry_smile.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/skins/moono/images/arrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/media/uploads/files/bia_lđ.doc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/showblocks/images/block_address.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/showblocks/images/block_blockquote.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/showblocks/images/block_div.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/showblocks/images/block_h1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/showblocks/images/block_h2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/showblocks/images/block_h3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/showblocks/images/block_h4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/showblocks/images/block_h5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/showblocks/images/block_h6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/showblocks/images/block_p.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/showblocks/images/block_pre.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/smiley/images/broken_heart.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/smiley/images/broken_heart.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/galleriffic/css/caption.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/skins/moono/images/close.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/skins/moono/images/hidpi/close.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/smiley/images/confused_smile.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/smiley/images/confused_smile.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/smiley/images/cry_smile.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/smiley/images/cry_smile.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/smiley/images/devil_smile.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/smiley/images/devil_smile.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/smiley/images/embaressed_smile.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/smiley/images/embarrassed_smile.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/smiley/images/embarrassed_smile.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/smiley/images/envelope.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/smiley/images/envelope.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/smiley/images/heart.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/smiley/images/heart.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/forms/images/hiddenfield.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/magicline/images/icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/magicline/images/hidpi/icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/youtube/images/icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/icons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/skins/moono/icons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/icons_hidpi.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/skins/moono/icons_hidpi.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/smiley/images/kiss.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/smiley/images/kiss.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/smiley/images/lightbulb.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/smiley/images/lightbulb.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/galleriffic/css/loader.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/galleriffic/css/loaderWhite.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/skins/moono/images/lock-open.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/skins/moono/images/hidpi/lock-open.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/skins/moono/images/lock.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/skins/moono/images/hidpi/lock.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/about/dialogs/logo_ckeditor.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/about/dialogs/hidpi/logo_ckeditor.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/galleriffic/css/nextPageArrow.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/galleriffic/css/nextPageArrowWhite.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/image/images/noimage.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/smiley/images/omg_smile.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/smiley/images/omg_smile.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/pagebreak/images/pagebreak.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/flash/images/placeholder.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/iframe/images/placeholder.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/galleriffic/css/prevPageArrow.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/galleriffic/css/prevPageArrowWhite.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/skins/moono/images/refresh.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/skins/moono/images/hidpi/refresh.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/smiley/images/regular_smile.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/smiley/images/regular_smile.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/smiley/images/sad_smile.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/smiley/images/sad_smile.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/smiley/images/shades_smile.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/smiley/images/shades_smile.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/fakeobjects/images/spacer.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/smiley/images/teeth_smile.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/smiley/images/teeth_smile.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/templates/templates/images/template1.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/templates/templates/images/template2.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/templates/templates/images/template3.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/smiley/images/thumbs_down.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/smiley/images/thumbs_down.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/smiley/images/thumbs_up.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/smiley/images/thumbs_up.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/smiley/images/tongue_smile.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/smiley/images/tongue_smile.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/smiley/images/tounge_smile.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/smiley/images/whatchutalkingabout_smile.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/smiley/images/whatchutalkingabout_smile.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/smiley/images/wink_smile.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/smiley/images/wink_smile.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/CHANGES.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/LICENSE.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/scayt/LICENSE.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/wsc/LICENSE.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/scayt/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/wsc/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/_translationstatus.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/_translationstatus.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/a11yhelp.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/about/dialogs/about.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/af.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/link/dialogs/anchor.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/ar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/ar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/ar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/galleriffic/css/basic.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/bg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/bg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/bg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/galleriffic/css/black.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/bn.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/bs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/build-config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/forms/dialogs/button.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/ca.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/ca.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/ca.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/forms/dialogs/checkbox.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/wsc/dialogs/ciframe.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/ckeditor.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/colordialog/dialogs/colordialog.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/contents.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/cs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/cs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/cs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/cy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/cy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/cy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/da.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/da.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/de.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/de.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/de.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/pastefromword/filter/default.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/templates/templates/default.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/skins/moono/dialog.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/dialog/dialogDefinition.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/skins/moono/dialog_ie.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/skins/moono/dialog_ie7.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/skins/moono/dialog_ie8.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/skins/moono/dialog_iequirks.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/skins/moono/dialog_opera.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/div/dialogs/div.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/skins/moono/editor.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/skins/moono/editor_gecko.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/skins/moono/editor_ie.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/skins/moono/editor_ie7.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/skins/moono/editor_ie8.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/skins/moono/editor_iequirks.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/el.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/el.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/el.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/en-au.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/en-ca.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/en-gb.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/en-gb.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/en-gb.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/en.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/en.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/en.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tag/entity.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/eo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/eo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/eo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/es.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/es.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/es.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/et.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/et.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/et.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/eu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/fa.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/fa.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/fa.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/fi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/fi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/fi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/find/dialogs/find.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/flash/dialogs/flash.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/fo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/forms/dialogs/form.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topic/forms.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/fr-ca.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/fr-ca.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/fr-ca.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/fr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/fr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/fr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/galleriffic/css/galleriffic-1.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/galleriffic/css/galleriffic-2.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/galleriffic/css/galleriffic-3.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/galleriffic/css/galleriffic-4.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/galleriffic/css/galleriffic-5.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/gl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/gl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/gl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/gu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/gu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/he.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/he.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/he.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/hi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/hi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/forms/dialogs/hiddenfield.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/hr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/hr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/hr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/hu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/hu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/hu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/id.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/id.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/id.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/iframe/dialogs/iframe.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/image/dialogs/image.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/is.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/it.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/it.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/it.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/ja.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/ja.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/ja.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/galleriffic/js/jquery-1.3.2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/galleriffic/js/jquery.galleriffic.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/galleriffic/js/jquery.history.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/adapters/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/galleriffic/js/jquery.opacityrollover.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/galleriffic/css/jush.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/galleriffic/js/jush.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/ka.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/km.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/km.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/km.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/ko.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/ko.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/ku.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/ku.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/ku.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/link/dialogs/link.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/liststyle/dialogs/liststyle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/lt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/lt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/lv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/lv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/lv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/mk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/mk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/mn.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/mn.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/ms.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/nb.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/nb.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/nb.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/nl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/nl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/nl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/no.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/no.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/no.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/scayt/dialogs/options.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/clipboard/dialogs/paste.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/pl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/pl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/pl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/preview/preview.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/pt-br.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/pt-br.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/pt-br.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/pt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/pt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/pt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/forms/dialogs/radio.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/skins/moono/readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/ro.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/ro.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/ru.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/ru.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/ru.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topic/templates/topic/save.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/forms/dialogs/select.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/js/select2_locale_vi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/si.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/si.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/si.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/sk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/sk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/sk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/sl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/sl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/sl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/smiley/dialogs/smiley.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/specialchar/dialogs/specialchar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/sq.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/sq.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/sq.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/sr-latn.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/sr-latn.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/sr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/sr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tag/templates/tag/student.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/styles.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/sv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/sv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/sv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/table/dialogs/table.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/tabletools/dialogs/tableCell.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/templates/dialogs/templates.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/templates/dialogs/templates.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/forms/dialogs/textarea.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/forms/dialogs/textfield.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/th.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/th.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/th.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/wsc/dialogs/tmp.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/wsc/dialogs/tmpFrameset.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/scayt/dialogs/toolbar.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/tr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/tr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/tr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/ug.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/ug.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/ug.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/uk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/uk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/uk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tag/urls.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/vi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/vi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/vi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/galleriffic/css/white.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/wsc/dialogs/wsc.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/wsc/dialogs/wsc.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/wsc/dialogs/wsc_ie.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/zh-cn.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/zh-cn.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/zh-cn.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/zh.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/zh.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/zh.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hlusupportivelearning/media/uploads/files/doc_review.docx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/topic/templates/topic/index.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/account/admin.py" afterPath="$PROJECT_DIR$/account/admin.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/templates/base.html" afterPath="$PROJECT_DIR$/hlusupportivelearning/templates/base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlu.log" afterPath="$PROJECT_DIR$/hlu.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/student/templates/student/info.html" afterPath="$PROJECT_DIR$/student/templates/student/info.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/account/models.py" afterPath="$PROJECT_DIR$/account/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag/models.py" afterPath="$PROJECT_DIR$/tag/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/topic/models.py" afterPath="$PROJECT_DIR$/topic/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static/css/select2.css" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/css/select2.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static/js/select2.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/js/select2.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/settings.py" afterPath="$PROJECT_DIR$/hlusupportivelearning/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/urls.py" afterPath="$PROJECT_DIR$/hlusupportivelearning/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/topic/urls.py" afterPath="$PROJECT_DIR$/topic/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/student/views.py" afterPath="$PROJECT_DIR$/student/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag/views.py" afterPath="$PROJECT_DIR$/tag/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/topic/views.py" afterPath="$PROJECT_DIR$/topic/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/CHANGES.md" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/CHANGES.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/LICENSE.md" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/LICENSE.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/scayt/LICENSE.md" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/scayt/LICENSE.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/wsc/LICENSE.md" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/wsc/LICENSE.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/scayt/README.md" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/scayt/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/wsc/README.md" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/wsc/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/_translationstatus.txt" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/_translationstatus.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/_translationstatus.txt" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/_translationstatus.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/af.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/af.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/ar.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/ar.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/galleriffic/css/basic.css" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/galleriffic/css/basic.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/bg.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/bg.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/galleriffic/css/black.css" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/galleriffic/css/black.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/bn.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/bn.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/bs.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/bs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/build-config.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/build-config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/ca.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/ca.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/wsc/dialogs/ciframe.html" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/wsc/dialogs/ciframe.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/contents.css" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/contents.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/cs.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/cs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/cy.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/cy.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/da.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/da.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/de.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/de.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/skins/moono/dialog.css" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/skins/moono/dialog.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/skins/moono/dialog_ie.css" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/skins/moono/dialog_ie.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/skins/moono/dialog_ie7.css" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/skins/moono/dialog_ie7.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/skins/moono/dialog_ie8.css" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/skins/moono/dialog_ie8.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/skins/moono/dialog_iequirks.css" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/skins/moono/dialog_iequirks.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/skins/moono/dialog_opera.css" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/skins/moono/dialog_opera.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/skins/moono/editor.css" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/skins/moono/editor.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/skins/moono/editor_gecko.css" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/skins/moono/editor_gecko.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/skins/moono/editor_ie.css" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/skins/moono/editor_ie.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/skins/moono/editor_ie7.css" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/skins/moono/editor_ie7.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/skins/moono/editor_ie8.css" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/skins/moono/editor_ie8.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/skins/moono/editor_iequirks.css" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/skins/moono/editor_iequirks.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/el.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/el.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/en-au.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/en-au.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/en-ca.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/en-ca.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/en-gb.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/en-gb.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/en.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/en.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/eo.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/eo.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/es.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/es.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/et.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/et.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/eu.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/eu.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/fa.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/fa.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/fi.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/fi.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/fo.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/fo.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/fr-ca.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/fr-ca.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/fr.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/fr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/galleriffic/css/galleriffic-1.css" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/galleriffic/css/galleriffic-1.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/galleriffic/css/galleriffic-2.css" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/galleriffic/css/galleriffic-2.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/galleriffic/css/galleriffic-3.css" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/galleriffic/css/galleriffic-3.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/galleriffic/css/galleriffic-4.css" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/galleriffic/css/galleriffic-4.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/galleriffic/css/galleriffic-5.css" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/galleriffic/css/galleriffic-5.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/gl.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/gl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/gu.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/gu.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/he.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/he.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/hi.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/hi.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/hr.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/hr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/hu.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/hu.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/id.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/id.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/is.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/is.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/it.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/it.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/ja.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/ja.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/galleriffic/js/jquery.galleriffic.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/galleriffic/js/jquery.galleriffic.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/galleriffic/js/jquery.opacityrollover.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/galleriffic/js/jquery.opacityrollover.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/ka.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/ka.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/km.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/km.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/ko.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/ko.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/ku.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/ku.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/lt.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/lt.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/lv.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/lv.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/mk.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/mk.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/mn.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/mn.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/ms.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/ms.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/nb.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/nb.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/nl.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/nl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/no.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/no.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/pl.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/pl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/preview/preview.html" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/preview/preview.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/pt-br.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/pt-br.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/pt.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/pt.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/skins/moono/readme.md" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/skins/moono/readme.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/ro.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/ro.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/ru.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/ru.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/si.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/si.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/sk.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/sk.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/sl.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/sl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/sq.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/sq.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/sr-latn.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/sr-latn.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/sr.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/sr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/styles.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/styles.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/sv.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/sv.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/templates/dialogs/templates.css" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/templates/dialogs/templates.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/th.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/th.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/wsc/dialogs/tmp.html" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/wsc/dialogs/tmp.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/wsc/dialogs/tmpFrameset.html" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/wsc/dialogs/tmpFrameset.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/scayt/dialogs/toolbar.css" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/scayt/dialogs/toolbar.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/tr.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/tr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/ug.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/ug.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/uk.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/uk.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/vi.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/vi.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/galleriffic/css/white.css" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/galleriffic/css/white.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/wsc/dialogs/wsc.css" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/plugins/wsc/dialogs/wsc.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/zh-cn.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/zh-cn.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/zh.js" afterPath="$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/lang/zh.js" />
     </list>
     <ignored path="hlusupportivelearning.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -394,7 +134,7 @@
       <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/topic/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
+            <state vertical-scroll-proportion="0.0" vertical-offset="480" max-vertical-offset="630">
               <caret line="32" column="29" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
               <folding />
             </state>
@@ -404,11 +144,9 @@
       <file leaf-file-name="forms.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/topic/forms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
+            <state vertical-scroll-proportion="0.0" vertical-offset="405" max-vertical-offset="495">
               <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-              <folding>
-                <element signature="e#22#46#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -426,8 +164,8 @@
       <file leaf-file-name="config.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.15570934" vertical-offset="0" max-vertical-offset="578">
-              <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.12975779" vertical-offset="0" max-vertical-offset="578">
+              <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -590,7 +328,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -837,6 +574,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1035,7 +773,11 @@
       <created>1413129515087</created>
       <updated>1413129515087</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Edit topic app">
+      <created>1414084435364</created>
+      <updated>1414084435364</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1083,7 +825,8 @@
     <MESSAGE value="Edit models in all apps" />
     <MESSAGE value="Edit finding group" />
     <MESSAGE value="Edit some models" />
-    <option name="LAST_COMMIT_MESSAGE" value="Edit some models" />
+    <MESSAGE value="Edit topic app" />
+    <option name="LAST_COMMIT_MESSAGE" value="Edit topic app" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1207,7 +950,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
           <caret line="7" column="42" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1222,6 +964,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.11980831" vertical-offset="0" max-vertical-offset="626">
           <caret line="6" column="76" selection-start-line="6" selection-start-column="65" selection-end-line="6" selection-end-column="76" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1247,6 +990,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5602716" vertical-offset="0" max-vertical-offset="1035">
           <caret line="22" column="72" selection-start-line="22" selection-start-column="72" selection-end-line="22" selection-end-column="72" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1254,6 +998,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.095846646" vertical-offset="0" max-vertical-offset="626">
           <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1329,6 +1074,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.37375414" vertical-offset="0" max-vertical-offset="602">
           <caret line="15" column="56" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="56" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1371,6 +1117,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3233831" vertical-offset="15" max-vertical-offset="765">
           <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1402,7 +1149,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="2454" max-vertical-offset="16920">
           <caret line="195" column="8" selection-start-line="195" selection-start-column="8" selection-end-line="195" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1410,7 +1156,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3322034" vertical-offset="1094" max-vertical-offset="2100">
           <caret line="86" column="6" selection-start-line="86" selection-start-column="6" selection-end-line="86" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1418,7 +1163,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.024875622" vertical-offset="0" max-vertical-offset="603">
           <caret line="1" column="37" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1426,7 +1170,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="789" max-vertical-offset="9150">
           <caret line="75" column="23" selection-start-line="75" selection-start-column="23" selection-end-line="75" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1434,7 +1177,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.561017" vertical-offset="1919" max-vertical-offset="12915">
           <caret line="164" column="31" selection-start-line="164" selection-start-column="31" selection-end-line="164" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1458,7 +1200,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.45207667" vertical-offset="542" max-vertical-offset="1455">
           <caret line="65" column="68" selection-start-line="65" selection-start-column="52" selection-end-line="65" selection-end-column="68" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1466,9 +1207,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
           <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding>
-            <element signature="e#22#46#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1482,8 +1221,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/hlusupportivelearning/static/ckeditor/ckeditor/config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15570934" vertical-offset="0" max-vertical-offset="578">
-          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.12975779" vertical-offset="0" max-vertical-offset="578">
+          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
           <folding />
         </state>
       </provider>
