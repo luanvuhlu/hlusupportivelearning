@@ -5,10 +5,12 @@ from django.shortcuts import render, get_object_or_404
 from hlusupportivelearning.views import get_user
 from django.template import RequestContext, loader
 from student.models import Student
+from tag.models import Tag
 from forms import StudentForm, EditStudentForm
 from hlusupportivelearning.util import ErrorMessage
 import logging
 log=logging.getLogger(__name__)
+
 # Create your views here.
 def home(request):
     user=get_user(request)

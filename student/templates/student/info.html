@@ -13,7 +13,7 @@
         {% endif %}
         {% if student %}
             <a href="{% url 'edit-student' student.code%}">Edit</a>
-            {{student.code}}
+            <a href="{% url 'tag-student' student.code%}">Tag of Student</a>
         {% endif %}
     </div>
 </div>

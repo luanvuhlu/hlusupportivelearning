@@ -1,0 +1,64 @@
+{% extends "base.html" %}
+{% block title %}{% if student %}Edit student {{student.code}}{% else %}Create new Student{% endif %}{% endblock %}
+{#% block left %#}
+<!--<div class="col-md-3"></div>-->
+{#% endblock %#}
+{% block content %}
+<div class="col-md-6">
+    <div class="row text-center">
+        {% if errors and errors.has_error %}
+            {% for err in errors.list %}
+                <div>{{err}}</div>
+            {% endfor %}
+        {% else %}
+            <form action="{% url 'tag-student' student.code %}" method="post" class="form-horizontal" role="form">
+                {% csrf_token %}
+                {% for tag in tags %}
+
+                    <div class="col-md-3 col-sm-6">
+                        {% if tag.has_tag %}
+                            <input type="hidden" name="tag" id="tag-{{tag.tag.id}}" value="{{tag.tag.id}}" />
+                            <div class="col-sm-offset-2 col-sm-10">
+                                <a href="javascript: void(0)" onclick="selectTag(this)" value="{{tag.tag.id}}"  class="tag-selected btn btn-primary" >{{tag.tag.name}}</a>
+                              <!--<button type="button" value="{{tag.tag.id}}" class="tag-selected btn btn-primary">{{tag.tag.name}}</button>-->
+                            </div>
+                        {% else %}
+                            <input type="hidden" name="tag" id="tag-{{tag.tag.id}}" value="" />
+                            <div class="col-sm-offset-2 col-sm-10">
+                                <a href="javascript: void(0)" onclick="selectTag(this)" value="{{tag.tag.id}}"  class="btn btn-default" >{{tag.tag.name}}</a>
+                                <!--<button type="button" value="{{tag.tag.id}}" class="btn btn-default">{{tag.tag.name}}</button>-->
+                            </div>
+                        {% endif %}
+                        <p>
+                            {{tag.tag.description}}
+                        </p>
+                    </div>
+                {% endfor %}
+                <div class="form-group">
+                    <div class="col-sm-offset-2 col-sm-10">
+                      <button type="submit" class="btn btn-default">Save</button>
+                    </div>
+                </div>
+            </form>
+        {% endif %}
+    </div>
+</div>
+{% endblock %}
+{% block static2 %}
+    function selectTag(obj){
+        var tagObj=$(obj);
+        var tagId=tagObj.attr('value');
+        if(tagObj.hasClass('tag-selected')){
+            tagObj.removeClass('btn-primary');
+            tagObj.removeClass('tag-selected');
+            tagObj.addClass('btn-default');
+            $('#tag-'+tagId).val('');
+
+        }else{
+            tagObj.addClass('btn-primary');
+            tagObj.addClass('tag-selected');
+            tagObj.removeClass('btn-default');
+            $('#tag-'+tagId).val(tagId);
+        }
+    }
+{% endblock %}
