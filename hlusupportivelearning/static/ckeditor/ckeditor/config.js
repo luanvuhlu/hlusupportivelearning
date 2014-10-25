@@ -3,11 +3,6 @@
  * For licensing, see LICENSE.html or http://ckeditor.com/license
  */
 
-CKEDITOR.replace( 'client-header',
-    {
-        uiColor : '#9AB8F3'
-    });
-
 CKEDITOR.editorConfig = function( config ) {
 	// Define changes to default configuration here. For example:
 	// config.language = 'fr';

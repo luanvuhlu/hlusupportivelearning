@@ -26,6 +26,8 @@ def create_view(request):
             new_topic=form.save(commit=False)
             new_topic.user=request.user
             new_topic.save()
+            new_topic.tag=form.cleaned_data['tag']
+            new_topic.save()
             return HttpResponseRedirect(reverse('topic-info', args=(new_topic.id, ) ))
         else:
             log.debug(form.errors)
@@ -35,3 +37,5 @@ def create_view(request):
         'form':form,
         'errors':errors,
     })
+def info_view(request, pk):
+    return HttpResponse(pk)

@@ -216,26 +216,10 @@ DEBUG_TOOLBAR_PANELS = [
 ]
 
 CKEDITOR_UPLOAD_PATH = "uploads/ckeditor/"
-CKEDITOR_SLUGIFY_FILENAME=False
+CKEDITOR_SLUGIFY_FILENAME=True
 CKEDITOR_RESTRICT_BY_USER=True
-CKEDITOR_JQUERY_URL='http://hlu.vn:8000/static/grappelli/jquery/jquery-1.9.1.min.js'
-CKEDITOR_CONFIGS = {
-    'default':{
+CKEDITOR_JQUERY_URL='/static/jquery/jquery-1.11.1.js'
 
-    },
-    'client-header': {
-        'uiColor' : '#9AB8F3',
-        'height': 200,
-        'width': 500,
-        'removeDialogTabs':'link:upload;image:Upload',
-    },
-    'client-content': {
-        'uiColor' : '#9AB8F3',
-        'height': 500,
-        'width': 700,
-        'removeDialogTabs':'link:upload;image:Upload',
-    },
-}
 SELECT2_BOOTSTRAP=True
 AUTO_RENDER_SELECT2_STATICS=False
 

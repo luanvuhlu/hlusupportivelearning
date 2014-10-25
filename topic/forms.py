@@ -4,7 +4,7 @@ from django.core.exceptions import NON_FIELD_ERRORS, ValidationError
 from django.utils.translation import ugettext_lazy as _
 from ckeditor.widgets import CKEditorWidget
 from django_select2.widgets import Select2MultipleWidget
-from django.forms.widgets import TextInput
+from django.forms.widgets import Textarea, TextInput
 from models import Topic
 
 from document.models import Subject
@@ -17,10 +17,8 @@ class WriteTopicForm(forms.ModelForm):
         model=Topic
         fields=['title', 'header', 'content', 'tag']
         widgets = {
-            'header':CKEditorWidget(config_name='client-header'),
-            'content':CKEditorWidget(config_name='client-content'),
             'tag': Select2MultipleWidget(select2_options={
-                                'placeholder':'Select Tag',
+                                'placeholder':'Select Tags',
                                 'minimumResultsForSearch': 10,
                                 'closeOnSelect': True,
                                 }),

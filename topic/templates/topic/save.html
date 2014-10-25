@@ -1,11 +1,22 @@
 {% extends "base.html" %}
 {% block title %}Create new Topic{% endblock %}
 {% block static %}
+{% load static %}
+<script src="{% static 'ckeditor/ckeditor/ckeditor.js' %}"></script>
 {% load django_select2_tags %}
 {% import_django_select2_js_css %}
 <script>
     $(document).ready(function() {
-
+        CKEDITOR.replace( 'id_header',
+            {
+                customConfig: 'basic-config.js'
+            }
+        );
+        CKEDITOR.replace( 'id_content',
+            {
+                customConfig: 'standard-config.js'
+            }
+        );
     });
 </script>
 {% endblock %}
@@ -13,9 +24,9 @@
 <!--<div class="col-md-3"></div>-->
 {% endblock %}
 {% block content %}
-<div class="col-md-6">
+<div class="col-md-12">
     <div class="row">
-        {% if errors.has_error %}
+        {% if errors and errors.has_error %}
             {% for err in errors.list %}
                 <div>{{err}}</div>
             {% endfor %}
@@ -23,20 +34,18 @@
             {% if form %}
                 <form action="" method="post" class="form-horizontal" role="form">
                     {% csrf_token %}
-                    {{ form.media }}
                     {% for error in form.non_field_errors %}
                         <div class="alert alert-error">
                             <strong>{{ error|escape }}</strong>
                         </div>
                     {% endfor %}
                     {% for field in form %}
-
                             <div class="form-group">
                                 {{ field.errors }}
-                                <div class="col-sm-3">
+                                <div class="col-sm-2">
                                     {{ field.label_tag }}
                                 </div>
-                                <div class="col-sm-9">
+                                <div class="col-sm-8">
                                     {{ field }}
                                 </div>
                             </div>
@@ -52,4 +61,6 @@
         {% endif %}
     </div>
 </div>
+{% endblock %}
+{% block right %}
 {% endblock %}

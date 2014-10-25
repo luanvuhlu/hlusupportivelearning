@@ -5,5 +5,5 @@ urlpatterns = patterns('',
     # Examples:
     url(r'^$', 'topic.views.home', name='home'),
     url(r'^create/$', 'topic.views.create_view', name='create-topic'),
-
+    url(r'^(?P<pk>\d+)/info/$' , 'topic.views.info_view', name='topic-info'),
 )
