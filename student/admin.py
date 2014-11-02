@@ -14,7 +14,7 @@ class ScholasticAdmin(admin.ModelAdmin):
             obj.name=str(start.year)+'-'+str(end.year)
         obj.save()
     def delete_model(self, request, obj):
-        obj.deactived=True
+        obj.activated=False
         obj.save()
 class CourseAdmin(admin.ModelAdmin):
     readonly_fields = ('activated', )
@@ -23,7 +23,7 @@ class CourseAdmin(admin.ModelAdmin):
             obj.name=form.cleaned_data['code']
         obj.save()
     def delete_model(self, request, obj):
-        obj.deactived=True
+        obj.activated=False
         obj.save()
 
 class UClassAdmin(admin.ModelAdmin):
@@ -33,19 +33,19 @@ class UClassAdmin(admin.ModelAdmin):
             obj.name=form.cleaned_data['code']
         obj.save()
     def delete_model(self, request, obj):
-        obj.deactived=True
+        obj.activated=False
         obj.save()
 
 class StudentAdmin(admin.ModelAdmin):
     readonly_fields = ('activated', )
-    exclude = ('user', )
+    exclude = ('account', )
     def save_model(self, request, obj, form, change):
-        obj.user=request.user
+        obj.account=request.user
         if not form.cleaned_data['alias'].strip():
             obj.alias=obj.last_name
         obj.save()
     def delete_model(self, request, obj):
-        obj.deactived=True
+        obj.activated=False
         obj.save()
 # Register site
 admin.site.register(Scholastic, ScholasticAdmin)

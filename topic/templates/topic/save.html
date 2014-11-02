@@ -32,7 +32,7 @@
             {% endfor %}
         {% else %}
             {% if form %}
-                <form action="" method="post" class="form-horizontal" role="form">
+                <form action="" method="post" class="form-horizontal" id='topic-form' role="form">
                     {% csrf_token %}
                     {% for error in form.non_field_errors %}
                         <div class="alert alert-error">
@@ -51,11 +51,45 @@
                             </div>
 
                     {% endfor %}
+                    <div class="form-group uploaded" id="uploaded-field">
+                        <div class="col-sm-2">
+                            <b>File Attach:</b>
+                        </div>
+                        <div class="col-sm-10  field">
+                            <div class="row">
+
+                            </div>
+                        </div>
+                    </div>
                     <div class="form-group">
-                        <div class="col-sm-offset-2 col-sm-10">
+                        <div class="col-sm-10">
                           <button type="submit" class="btn btn-default">Save</button>
                         </div>
                     </div>
+                </form>
+                <form  action="{% url 'upload-topic-file' %}" method="post" class="form-horizontal"  enctype="multipart/form-data"  acceptcharset="UTF-8"
+                       id='upload-form' role="form" target="upload-frame">
+                    {% csrf_token %}
+                    <div class="form-group" id='upload-field'>
+                        <div class="col-sm-2">
+                            <b>File Attach:</b>
+                        </div>
+                        <div class="col-sm-2">
+                            <input typety="text" name="file-name" class="form-control"  />
+                        </div>
+                        <div class="col-sm-4">
+                            <input type="file" name="file" class="form-control" />
+                        </div>
+                        <div class="col-sm-1 hidden ">
+                                {% load staticfiles %}
+                                <img src="{% static 'image/loading.gif' %}" alt="Uploading..."/>
+                        </div>
+                        <div class="col-sm-3">
+                            <button type="button" class="btn btn-primary" id="upload-btn" >Upload</button>
+                        </div>
+                    </div>
+
+
                 </form>
             {% endif %}
         {% endif %}
@@ -63,4 +97,51 @@
 </div>
 {% endblock %}
 {% block right %}
+{% endblock %}
+{% block static2 %}
+<script type="text/javascript">
+    $(document).ready(function(){
+        $('#upload-btn').click(function(){
+            upload_file();
+        });
+    });
+    function upload_file(){
+        var action_url='';
+        //$('#upload-frame').remove();
+        $('body').append("<iframe src='123' id='upload-frame' style='display:None;' name='upload-frame' ><html><head></head><body></form></body></html></iframe>");
+        var frame=document.getElementById('upload-frame');
+        $('#topic-form').attr('target', 'upload-frame');
+        $('#topic-form').attr('action', action_url);
+        var content="";
+        var eventHandler = function () {
+            if (frame.detachEvent) frame.detachEvent("onload", eventHandler);
+            else frame.removeEventListener("load", eventHandler, false);
+          if (frame.contentDocument) {
+              content = frame.contentDocument.body.innerHTML;
+          } else if (frame.contentWindow) {
+            content = frame.contentWindow.document.body.innerHTML;
+          }else if (frame.document) {
+             content = frame.document.body.innerHTML;
+          }
+            if (typeof console !="undefine"){
+                console.log("content: "+content);
+            }
+            if (content.length != 0) {
+                $('#uploaded-field .field .row').append(content);
+            } else {
+                alert('Upload error !');
+            }
+            $('#upload-frame').remove();
+
+            // Del the iframe...
+            setTimeout(function(){
+                $('#upload-frame').remove();
+            }, 250);
+        }
+
+        if (frame.addEventListener) frame.addEventListener("load", eventHandler, true);
+        if (frame.attachEvent) frame.attachEvent("onload", eventHandler);
+        document.getElementById('upload-form').submit();
+    }
+</script>
 {% endblock %}

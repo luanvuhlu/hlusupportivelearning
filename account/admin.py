@@ -12,6 +12,9 @@ class CUserAdmin(admin.ModelAdmin):
             obj.password=obj.make_password(password)
             log.debug(obj.password)
         obj.save()
+    def delete_model(self, request, obj):
+		obj.activated=True
+		obj.save()
 
 
 # Register your models here.

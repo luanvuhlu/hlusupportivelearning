@@ -2,17 +2,17 @@ from django.contrib import admin
 from models import Group, GroupMember
 
 class GroupAdmin(admin.ModelAdmin):
-    list_display=('subject', 'created_time','public', 'deactived')
+    list_display=('subject', 'created_time','public', 'activated')
     readonly_fields=('user', )
     def save_model(self, request, obj, form, change):
         obj.user = request.user
         obj.save()
     def delete_model(self, request, obj):
-        obj.deactived=True
+        obj.activated=False
         obj.save()
 class GroupMemberAdmin(admin.ModelAdmin):
     def delete_model(self, request, obj):
-        obj.deactived=True
+        obj.activated=False
         obj.save()
 
 # Register your models here.

@@ -17,7 +17,7 @@ class News(models.Model):
     public=models.CharField(max_length=1, choices=PUBLIC_YN, default='Y')
     attach=models.ManyToManyField(FileStorage, blank=True)
     tag=models.ManyToManyField(Tag, blank=True)
-    deactived=models.BooleanField(default=False)
+    activated=models.BooleanField(default=True)
     def __unicode__(self):
         return self.title
     def get_time(self):

@@ -18,17 +18,17 @@ class GroupManager:
         return self.__get_list_groups(page)
     def __get_group_by_id(self, group_id):
         try:
-            group=Group.objects.get(pk=group_id, public='Y', deactived=False)
+            group=Group.objects.get(pk=group_id, public='Y', activated=True)
         except Group.DoesNotExist:
             group=None
         if group:
-            members=GroupMember.objects.filter(group=group, deactived=False)
+            members=GroupMember.objects.filter(group=group, activated=True)
             return GroupEtt(group, members)
         else:
             return None
     def __get_list_groups(self, page):
         groups=None
-        all_groups=Group.objects.filter(public='Y', deactived=False).order_by('date_created')
+        all_groups=Group.objects.filter(public='Y', activated=True).order_by('date_created')
         paginator=Paginator(all_groups, ITEMS_PER_PAGE)
         if not page:
             groups = paginator.page(paginator.num_pages)
@@ -46,7 +46,7 @@ class GroupManager:
     def __get_list_my_groups(self, page, student):
         groups=None
         group_list=[]
-        members=GroupMember.objects.filter(student=student, deactived=False).order_by('add_time')
+        members=GroupMember.objects.filter(student=student, activated=True).order_by('add_time')
         for m in members:
             group=self.__get_group_by_id(m.group.id)
             if group and group.group.public=='Y':
@@ -67,7 +67,7 @@ class GroupManager:
         return GroupsList(groups)
     def __get_list_own_groups(self, page, user):
         groups=None
-        all_groups=Group.objects.filter(user=user, public='Y', deactived=False).order_by('date_created')
+        all_groups=Group.objects.filter(user=user, public='Y', activated=True).order_by('date_created')
         paginator=Paginator(all_groups, ITEMS_PER_PAGE)
         if not page:
             groups = paginator.page(paginator.num_pages)
@@ -93,7 +93,7 @@ class GroupManager:
             gr=Group()
         try:
             log.debug("Subject code: "+subject_code)
-            subject=Subject.objects.get(deactived=False, public='Y', subject_code=subject_code)
+            subject=Subject.objects.get(activated=True, public='Y', subject_code=subject_code)
         except Subject.DoesNotExist:
             log.debug("Subject isnt exist")
             return None

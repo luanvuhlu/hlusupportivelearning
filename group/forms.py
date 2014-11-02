@@ -5,7 +5,7 @@ import logging
 
 
 # class SearchGroupForm(forms.Form):
-#     ss=Subject.objects.filter(deactived=False, public='Y')
+#     ss=Subject.objects.filter(activated=True, public='Y')
 #     list_subject=(('', 'Choose subject'), )
 #     for s in ss:
 #         list_subject=list_subject+((s.subject_code, s.subject_short_name and s.subject_short_name or s.subject_name), ) # Add a tupple to another tupple

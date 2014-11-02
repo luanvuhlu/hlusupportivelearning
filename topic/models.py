@@ -39,4 +39,4 @@ class Comment(models.Model):
     user=models.ForeignKey(CUser)
     block=models.BooleanField(default=False)
     edited=models.BooleanField(default=False)
-    deactived=models.BooleanField(default=False)
+    activated=models.BooleanField(default=True)

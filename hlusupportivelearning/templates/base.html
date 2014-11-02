@@ -106,51 +106,6 @@
 <script src={% static 'bootstrap/js/bootstrap.js' %}></script>
 <script src={% static 'jquery-ui/js/jquery-ui-1.10.4.js' %}></script>
 <script src={% static 'js/main.js' %}></script>
-
-<!-- AJAX
-<script type="text/javascript" src="{% static 'django_ajax/js/jquery.ajax.min.js' %}"></script>
-
-<script>
-    setInterval(function(){
-        notification_count()
-    }, 10000)
-    $('#notification').click(function(){
-        view_notification()
-    })
-    function notification_count(){
-        console.log("GET request /notification_count/ ")
-        ajaxGet('/notification_count/', function(count){
-        //onSuccess
-        console.log("Data: "+ count)
-        if ( count !=null && count != 0 ){
-            $('#notification-count').html(" "+count+" ")
-        }
-        $('#notification-count').attr('data-count', count)
-
-    })
-    }
-    function view_notification(){
-        console.log("GET request /notification_view/ ")
-        ajaxGet('/notification_view/', function(data){
-        //onSuccess
-        if (data !=null){
-            for(i in data){
-                console.log("Data: "+ data[i].content +" - "+ data[i].url)
-            }
-        }
-
-
-        $('#notification-count').html("")
-
-    })
-    }
-</script>
--->
-
- <script>
-{% block static2 %}
-{% endblock %}
-</script>
-
+ {% block static2 %}{% endblock %}
 </body>
 </html>

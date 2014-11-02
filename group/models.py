@@ -27,7 +27,7 @@ class Group(models.Model):
     email=models.EmailField(max_length=50, blank=False)
     public=models.CharField(max_length=1, choices=PUBLIC_YN, default='Y')
     created_time=models.DateTimeField(default=timezone.now(), blank=False)
-    deactived=models.BooleanField(default=False)
+    activated=models.BooleanField(default=True)
     def __unicode__(self):
         return self.subject.__str__()
     def get_date_until(self):
@@ -40,6 +40,6 @@ class GroupMember(models.Model):
     group=models.ForeignKey(Group)
     add_time=models.DateTimeField(default=timezone.now(), blank=False)
     found_yn=models.BooleanField(default=False, blank=False)
-    deactived=models.BooleanField(default=False, blank=False)
+    activated=models.BooleanField(default=True, blank=False)
     def __unicode__(self):
         return self.member_code

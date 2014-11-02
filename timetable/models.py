@@ -13,7 +13,7 @@ class TimeTable(models.Model):
 	year=models.CharField(max_length=4, blank=True)
 	semester=models.CharField(max_length=2, blank=True)
 	created_time=models.DateTimeField(default=timezone.now(), blank=False)
-	deactived=models.BooleanField(default=False)
+	activated=models.BooleanField(default=True)
 	def __unicode__(self):
 		return self.student.__str__()
 class SubjectClass(models.Model):

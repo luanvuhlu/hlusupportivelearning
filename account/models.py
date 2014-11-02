@@ -25,6 +25,7 @@ class CUser(AbstractUser):
     province_code=models.SmallIntegerField(default=0, choices=PROVINCE_CODE_CHOOICE)
     gender=models.BooleanField(default=True, choices=GENDER_CHOOICE)
     introduce=models.TextField(max_length=200, blank=True)
+    activated=models.BooleanField(default=True)
     def __unicode__(self):
         if self.alias:
             return self.alias

@@ -1,6 +1,8 @@
 from django.db import models
 from filebrowser.fields import FileBrowseField
 from django.utils import timezone
+from account.models import CUser
+import hashlib
 
 # Create your models here.
 class FileType(models.Model):
@@ -12,15 +14,41 @@ class FileType(models.Model):
 	name=models.CharField(max_length=20, blank=False)
 	extension=models.CharField(max_length=30, blank=False, default="jpg, png")
 	description=models.CharField(max_length=200, blank=True)
-	deactived=models.BooleanField(default=False)
+	activated=models.BooleanField(default=True)
 	def __unicode__(self):
 		return self.name
 class FileStorage(models.Model):
 	name=models.CharField(max_length=100, blank=False)
-	file=FileBrowseField("DOC",max_length=200, directory="files/", extensions=[".pdf",".doc", ".docx"],null=False, blank=False)
+	file=FileBrowseField(max_length=200, directory="files/", extensions=[".pdf",".doc", ".docx", 'jpge', 'jpg', 'png'],null=False, blank=False)
 	file_type=models.ForeignKey(FileType)
 	created_time=models.DateTimeField(default=timezone.now())
-	deactived=models.BooleanField(default=False)
+	uploader=models.ForeignKey(CUser)
+	activated=models.BooleanField(default=True)
 	def __unicode__(self):
 		return self.file_type.name+"-"+self.name
+	def save(self, request=False, *args, **kwargs):
+	    if request:
+	        self.uploader=request.user
+	    super(Model, self).save(*args, **kwargs)
+class FileStorageTmp(models.Model):
+	code=models.CharField(max_length=10, blank=False, unique=True)
+	name=models.CharField(max_length=100, blank=False)
+	uploader=models.ForeignKey(CUser)
+	file=FileBrowseField(max_length=200, directory="files_tmp/", extensions=[".pdf",".doc", ".docx", 'jpge', 'jpg', 'png'],null=False, blank=False)
+	file_type=models.ForeignKey(FileType)
+	created_time=models.DateTimeField(default=timezone.now())
+	current_session=models.BooleanField(default=True)
+	complete=models.BooleanField(default=False)
+	def __unicode__(self):
+		return self.file_type.name+"-"+self.name
+	def save(self, *args, **kwargs):
+		if not self.id:
+			self.code=hashlib.md5(timezone.now().__str__()+self.uploader.id).hexdigest()
+		super(FileStorageTmp, self).save(*args, **kwargs)
+	def save(self, request=None, *args, **kwargs):
+		if request:
+			self.uploader=request.user
+		self.save(*args, **kwargs)
+
+
 

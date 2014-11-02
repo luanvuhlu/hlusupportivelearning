@@ -19,7 +19,7 @@ class Subject(models.Model):
     course_credit=models.SmallIntegerField(default=2, blank=False)
     speciality=models.CharField(max_length=10, blank=True)
     description=models.CharField(max_length=200, blank=True)
-    deactived=models.BooleanField(default=False)
+    activated=models.BooleanField(default=True)
     def __unicode__(self):
         if self.subject_short_name:
             return self.subject_short_name
@@ -33,7 +33,7 @@ class SubjectYear(models.Model):
 	course=models.CharField(max_length=10, blank=True)
 	speciality=models.CharField(max_length=10, blank=True)
 	year=models.CharField(max_length=4, blank=True)
-	deactived=models.BooleanField(default=False)
+	activated=models.BooleanField(default=True)
 	def __unicode__(self):
 		return self.subject.__str__()
 class Document(models.Model):
@@ -42,7 +42,7 @@ class Document(models.Model):
 	course=models.CharField(max_length=20, blank=True)
 	year=models.CharField(max_length=4, blank=True)
 	final_exam=models.CharField(max_length=100, blank=True)
-	deactived=models.BooleanField(default=False)
+	activated=models.BooleanField(default=True)
 	def __unicode__(self):
 		return self.subject.__str__()
 class AssignmentForm(models.Model):
@@ -52,7 +52,7 @@ class AssignmentForm(models.Model):
 	max_page=models.SmallIntegerField(blank=True, default=-1)
 	year=models.CharField(max_length=4, blank=True)
 	note=models.CharField(max_length=45, blank=True)
-	deactived=models.BooleanField(default=False)
+	activated=models.BooleanField(default=True)
 	def __unicode__(self):
 		return self.document.__str__()
 class ScheduleStudy(models.Model):
@@ -65,7 +65,7 @@ class ScheduleStudy(models.Model):
 	assignment=models.CharField(max_length=45, blank=True)
 	note=models.CharField(max_length=45, blank=True)
 	year=models.CharField(max_length=4, blank=True)
-	deactived=models.BooleanField(default=False)
+	activated=models.BooleanField(default=True)
 	def __unicode__(self):
 		return self.document.__str__()
 class StudyDocument(models.Model):
@@ -74,7 +74,7 @@ class StudyDocument(models.Model):
 	type=models.CharField(max_length=2, choices=STUDY_DOCUMENT_TYPE, blank=False)
 	compulsory=models.CharField(max_length=1, choices=YN, blank=False, default='Y')
 	year=models.CharField(max_length=4, blank=True)
-	deactived=models.BooleanField(default=False)
+	activated=models.BooleanField(default=True)
 	def __unicode__(self):
 		return self.name
 		

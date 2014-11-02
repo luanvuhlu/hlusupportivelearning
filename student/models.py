@@ -62,6 +62,10 @@ class Student(models.Model):
                 raise ValidationError('Code is already exist.')
         except Exception as e:
             log.debug(e.message.__str__())
+    def save(self, request=False, *args, **kwargs):
+        if request:
+            self.account=request.user
+        super(Model, self).save(*args, **kwargs)
 
 
 

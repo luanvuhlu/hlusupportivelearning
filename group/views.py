@@ -48,7 +48,7 @@ def save_group_view(request, id=None):
     is_new=True
     gr_mng=GroupManager()
     try:
-        all_subjects=Subject.objects.filter(deactived=False, public='Y')
+        all_subjects=Subject.objects.filter(activated=True, public='Y')
     except Subject.DoesNotExit:
         log.debug("Subject does not exist")
         raise Http404
