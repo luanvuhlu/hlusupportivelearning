@@ -1,0 +1,19 @@
+<div class="row">
+{% if file %}
+    <input name="file-storage" type="hidden" value="{{file_storage.id}}" />
+    <div class="col-sm-2">
+        {% if file.filetype == 'Image'%}
+            {% load fb_versions %}
+            <img src="{% version file 'small' %}" />
+        {% endif %}
+    </div>
+    <div class="col-sm-5">
+        <a href='{{file.url}}'>{{file.filename}}</a>
+    </div>
+    <div class="col-sm-2">
+        <button class="btn btn-primary" onclick="delete_file()" >Delete</button>
+    </div>
+{% else %}
+    <b>Error</b>
+{% endif %}
+</div>

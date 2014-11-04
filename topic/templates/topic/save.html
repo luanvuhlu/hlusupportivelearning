@@ -56,9 +56,6 @@
                             <b>File Attach:</b>
                         </div>
                         <div class="col-sm-10  field">
-                            <div class="row">
-
-                            </div>
                         </div>
                     </div>
                     <div class="form-group">
@@ -70,6 +67,7 @@
                 <form  action="{% url 'upload-topic-file' %}" method="post" class="form-horizontal"  enctype="multipart/form-data"  acceptcharset="UTF-8"
                        id='upload-form' role="form" target="upload-frame">
                     {% csrf_token %}
+                    <input type="hidden" name="code" value="{{code}}" />
                     <div class="form-group" id='upload-field'>
                         <div class="col-sm-2">
                             <b>File Attach:</b>
@@ -77,10 +75,19 @@
                         <div class="col-sm-2">
                             <input typety="text" name="file-name" class="form-control"  />
                         </div>
+                        {% if file_type_list %}
+                        <div class="col-sm-2">
+                            <select name="file-type" class="form-control">
+                                {% for f in file_type_list %}
+                                <option value="{{f.name}}">{{f.name}}({{f.extension}})</option>
+                                {% endfor %}
+                            </select>
+                        </div>
+                        {% endif %}
                         <div class="col-sm-4">
                             <input type="file" name="file" class="form-control" />
                         </div>
-                        <div class="col-sm-1 hidden ">
+                        <div class="col-sm-1 process-upload hidden ">
                                 {% load staticfiles %}
                                 <img src="{% static 'image/loading.gif' %}" alt="Uploading..."/>
                         </div>
@@ -127,10 +134,11 @@
                 console.log("content: "+content);
             }
             if (content.length != 0) {
-                $('#uploaded-field .field .row').append(content);
+                $('#uploaded-field .field').append(content);
             } else {
-                alert('Upload error !');
+                //alert('Upload error !');
             }
+            $('.process-upload').addClass('hidden');
             $('#upload-frame').remove();
 
             // Del the iframe...
@@ -142,6 +150,7 @@
         if (frame.addEventListener) frame.addEventListener("load", eventHandler, true);
         if (frame.attachEvent) frame.attachEvent("onload", eventHandler);
         document.getElementById('upload-form').submit();
+        $('.process-upload').removeClass('hidden');
     }
 </script>
 {% endblock %}

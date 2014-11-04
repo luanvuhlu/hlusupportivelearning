@@ -226,3 +226,9 @@ AUTO_RENDER_SELECT2_STATICS=False
 
 MEDIA_ROOT= os.path.join(PROJECT_DIR,'media/')
 MEDIA_URL='/media/'
+THUMBNAIL_ALIASES = {
+    '': {
+        'avatar': {'size': (50, 50), 'crop': True},
+        'fileupload': {'size': (100, 100), 'crop': True},
+    },
+}
