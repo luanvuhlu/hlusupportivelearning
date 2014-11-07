@@ -55,6 +55,7 @@ INSTALLED_APPS = (
     'tag',
     'timetable',
     'topic',
+    'datemanager',
 )
 
 MIDDLEWARE_CLASSES = (

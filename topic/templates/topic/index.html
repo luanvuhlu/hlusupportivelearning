@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+{% block title %}News{% endblock %}
+{% block left %}{% endblock %}
+{% block　content %}
+<div class="col-md-12">
+   {% if ls_topics %}
+    <ol class="topic-list">
+        {% for n in ls_topics %}
+        <li>
+            <div class='topic-title'>
+                <b><a href="{% url 'view-topic-detail' n.id %}">{{n.title}}</a></b>
+            </div>
+            <div class='topic-header visible-lg-block visible-md-block'>
+                {% autoescape off %}
+                    {{n.header}}
+                {% endautoescape %}
+            </div>
+        </li>
+        {% endfor %}
+    </ol>
+    <div class="pagination">
+        <span class="step-links">
+            {% if topic.has_previous %}
+                <a href="?page={{ ls_topics.previous_page_number }}">previous</a>
+            {% endif %}
+
+            <span class="current">
+                Page {{ ls_topics.number }} of {{ ls_topics.paginator.num_pages }}.
+            </span>
+
+            {% if ls_topics.has_next %}
+                <a href="?page={{ ls_topics.next_page_number }}">next</a>
+            {% endif %}
+        </span>
+    </div>
+    {% else %}
+    	<div class='no-result'>
+    		No result
+    	</div>
+    {% endif %}
+</div>
+{% endblock %}
+{% block right %}{% endblock %}

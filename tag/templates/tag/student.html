@@ -45,6 +45,7 @@
 </div>
 {% endblock %}
 {% block static2 %}
+        <script>
     function selectTag(obj){
         var tagObj=$(obj);
         var tagId=tagObj.attr('value');
@@ -61,4 +62,5 @@
             $('#tag-'+tagId).val(tagId);
         }
     }
+    </script>
 {% endblock %}

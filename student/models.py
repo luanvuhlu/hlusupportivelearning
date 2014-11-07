@@ -13,7 +13,7 @@ class Scholastic(models.Model):
     start_date=models.DateField(blank=False)
     end_date=models.DateField(blank=False)
     description=models.TextField(max_length=200, blank=True)
-    is_public=models.BooleanField(default=True)
+    public=models.BooleanField(default=True)
     activated=models.BooleanField(default=True)
     def __unicode__(self):
         return self.name
@@ -22,7 +22,7 @@ class Course(models.Model):
     name=models.CharField(max_length=32, blank=True)
     scholastic_start=models.ForeignKey(Scholastic)
     activated=models.BooleanField(default=True)
-    is_public=models.BooleanField(default=True)
+    public=models.BooleanField(default=True)
     description=models.TextField(max_length=200, blank=True)
     def __unicode__(self):
         return self.code
@@ -32,7 +32,7 @@ class UClass(models.Model):
     name=models.CharField(max_length=10, blank=True)
     course=models.ForeignKey(Course)
     activated=models.BooleanField(default=True)
-    is_public=models.BooleanField(default=True)
+    public=models.BooleanField(default=True)
     description=models.TextField(max_length=200, blank=True)
     def __unicode__(self):
         return self.code
@@ -65,7 +65,7 @@ class Student(models.Model):
     def save(self, request=False, *args, **kwargs):
         if request:
             self.account=request.user
-        super(Model, self).save(*args, **kwargs)
+        super(Student, self).save(*args, **kwargs)
 
 
 

@@ -5,8 +5,6 @@ from ckeditor.fields import RichTextField
 from filemanager.models import FileStorage
 from tag.models import Tag
 
-PUBLIC_YN=(('Y', 'Y'), ('N', 'N'))
-YN=(('Y', 'Y'), ('N', 'N'))
 # Create your models here.
 class News(models.Model):
     title=models.CharField(max_length=255, blank=False)
@@ -14,7 +12,7 @@ class News(models.Model):
     content=RichTextField(blank=False)
     created_time=models.DateTimeField(default=timezone.now())
     create_by=models.ForeignKey(CUser)
-    public=models.CharField(max_length=1, choices=PUBLIC_YN, default='Y')
+    public=models.BooleanField(default=True)
     attach=models.ManyToManyField(FileStorage, blank=True)
     tag=models.ManyToManyField(Tag, blank=True)
     activated=models.BooleanField(default=True)

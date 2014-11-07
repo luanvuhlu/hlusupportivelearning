@@ -35,12 +35,24 @@ class FileStorageTmp(models.Model):
 	name=models.CharField(max_length=100, blank=False)
 	uploader=models.ForeignKey(CUser)
 	file=FileBrowseField(max_length=200, directory="files_tmp/", extensions=[".pdf",".doc", ".docx", '.jpge', '.jpg', '.png'],null=False, blank=False)
-	file_type=models.ForeignKey(FileType)
-	created_time=models.DateTimeField(default=timezone.now())
-	current_session=models.BooleanField(default=True)
-	complete=models.BooleanField(default=False)
-	def __unicode__(self):
-		return self.file_type.name+"-"+self.name
+        file_type=models.ForeignKey(FileType)
+        created_time=models.DateTimeField(default=timezone.now())
+        current_session=models.BooleanField(default=True)
+        complete=models.BooleanField(default=False)
+        def __unicode__(self):
+            return self.file_type.name+"-"+self.name
+        def convert(self):
+            try:
+                obj=FileStorage()
+                obj.name=self.name
+                obj.file=self.file
+                obj.file_type=self.file_type
+                obj.uploader=self.uploader
+                obj.save()
+                self.complete=True
+                return obj
+            except:
+                return None
 
 
 

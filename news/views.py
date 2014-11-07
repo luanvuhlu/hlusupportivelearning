@@ -31,7 +31,7 @@ def home(request):
     page=request.GET.get('page') and request.GET.get('page') or 1 # if page request does not exist, page=1
     user=get_user(request)
     # news=get_new_news_list(user)
-    all_news=News.objects.filter(deactived=False, public='Y').order_by('created_time')
+    all_news=News.objects.filter(activated=True, public=True).order_by('created_time')
     paginator=Paginator(all_news, ITEMS_PER_PAGE)
     try:
         news=paginator.page(page)
@@ -52,7 +52,7 @@ def view_news_detail(request, pk):
 	user=get_user(request)
 	news=get_new_news_list(user=user)
 	try:
-		news_view=News.objects.get(id=pk, public='Y')
+		news_view=News.objects.get(id=pk, public=True)
 		news_detail=NewsDetail(user, news_view)
 		add_view_count(news_view, user)
 	except News.DoesNotExist:

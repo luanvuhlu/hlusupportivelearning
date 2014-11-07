@@ -1,0 +1,60 @@
+{% extends "base.html" %}
+{% block title %}
+	{{topic_detail.topic.title}}
+{% endblock %}
+{% block left %}{% endblock %}
+{% block content %}
+	{% if topic_detail %}
+		<div class='topic col-md-9'>
+			<div class='topic-title'>
+				<span class='text-primary {% if topic_detail.seen %}text-info{% endif %}'>
+					{{topic_detail.topic.title}}
+				</span>
+			</div>
+			<div class='row'>
+				<div class='topic-time col-md-4'>
+					{{topic_detail.topic.get_time}}
+				</div>
+				<div class='social col-md-4'>
+					{% include 'facebook.html' %}
+				</div>
+				<div class='topic-seen-count pull-right'>
+					{{topic_detail.seen_count}} seen
+				</div>
+			</div>
+			<!-- <div class='topic-seen'>
+				
+			</div> -->
+
+			<div class='topic-header'>
+				<blockquote>
+				{% autoescape off %}
+						<i>{{topic_detail.topic.header}}<i>
+				{% endautoescape %}
+			</blockquote>
+			</div>	
+			<div class='topic-content'>
+				{% autoescape off %}
+						{{topic_detail.topic.content}}
+				{% endautoescape %}
+			</div>
+			{% with topic_detail.topic.attach.all as attachs %}
+			{% if attachs %}
+			<div class='topic-attach'>
+				<h4>Attach</h4>
+				<ul class="non-list-style">
+				{% for attach in attachs %}
+					<li>
+						<a href='{{ MEDIA_URL }}{{attach.file.path}}' target="_blank">{{attach.name}}</a>
+					</li>
+				{% endfor %}
+				</ul>
+			</div>	
+			{% endif %}
+			{% endwith %}
+			<div class='topic-writer pull-right'>
+				Writer: <b>{{topic_detail.writter}}</b>
+			</div>
+		</div>
+	{% endif %}
+{% endblock %}

@@ -18,6 +18,7 @@ urlpatterns = patterns('',
     url(r'^student/', include('student.urls')),
     url(r'^tag/', include('tag.urls')),
     url(r'^document/', include('document.urls')),
+    url(r'^date/', include('datemanager.urls')),
     url(r'^letgo/', 'hlusupportivelearning.views.getting_started', name='getting_started'),
     url(r'^search/', search_full),
     # BACK END
