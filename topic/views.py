@@ -1,6 +1,7 @@
 from django.http import HttpResponse, Http404, HttpResponseRedirect
 from django.shortcuts import render, get_object_or_404
 from django.core.urlresolvers import reverse
+from django.contrib.auth.decorators import login_required
 from hlusupportivelearning.views import get_user
 from hlusupportivelearning.util import ErrorMessage
 from django.template import RequestContext, loader
@@ -30,15 +31,20 @@ def home(request):
     return render(request, 'topic/index.html', {
         'ls_topics':ls_topics,
     })
-def create_view(request):
+@login_required(login_url='/account/login/')
+def update_view(request, id=None):
     errors=ErrorMessage()
     file_type_list=FileType.objects.filter(activated=True)
     if request.method=='POST':
         form=WriteTopicForm(request.POST)
         # code=request.POST['code']
         if form.is_valid():
+            get_object_or_404(Topic, id=id, user=request.user, activated=True, block=False)
             new_topic=form.save(commit=False)
+            new_topic.id=id
             new_topic.user=request.user
+            if id:
+                new_topic.edited=True
             new_topic.save()
             new_topic.tag=form.cleaned_data['tag']
             file_storages=request.POST.getlist('file-storage')
@@ -53,18 +59,26 @@ def create_view(request):
                 except:
                     return HttpResponse('ERROR')
             # new_topic.save()
-            return HttpResponseRedirect(reverse('topic-info', args=(new_topic.id, ) ))
+            return HttpResponseRedirect(reverse('view-topic-detail', args=(new_topic.id, ) ))
         else:
             log.debug(form.errors)
     else:
         code=hashlib.md5(timezone.now().__str__()+"-"+str(request.user.id)).hexdigest()
-        form=WriteTopicForm()
-    return render(request, 'topic/save.html', {
+        if id:
+            topic=get_object_or_404(Topic, id=id, user=request.user, activated=True, block=False)
+            form=WriteTopicForm(instance=topic)
+        else:
+            form=WriteTopicForm()
+    context={
+        'id':id,
         'form':form,
         'code':code,
         'file_type_list':file_type_list,
         'errors':errors,
-    })
+    }
+    if id:
+        context['files']=topic.attach.all()
+    return render(request, 'topic/save.html', context)
 def add_view_count(topic, user):
 	if not topic or not isinstance(topic, Topic) :
 		log.debug("Topic is not a Topic instance")

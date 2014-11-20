@@ -19,6 +19,7 @@ class Topic(models.Model):
     activated=models.BooleanField(default=True)
     public=models.BooleanField(default=True)
     block=models.BooleanField(default=False)
+    edited=models.BooleanField(default=False)
     def __unicode__(self):
         return self.title
 class TopicView(models.Model):

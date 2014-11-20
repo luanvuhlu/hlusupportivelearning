@@ -56,6 +56,11 @@
                             <b>File Attach:</b>
                         </div>
                         <div class="col-sm-10  field">
+                            {% if files %}
+                            {% for file in files %}
+                                {% include "filemanager/uploaded-topic-attach-ajax.html" with file=file.file file_storage=file %}
+                            {% endfor %}
+                            {% endif %}
                         </div>
                     </div>
                     <div class="form-group">
@@ -73,7 +78,7 @@
                             <b>File Attach:</b>
                         </div>
                         <div class="col-sm-2">
-                            <input typety="text" name="file-name" class="form-control"  />
+                            <input typety="text" id="file_name" name="file-name" class="form-control"  />
                         </div>
                         {% if file_type_list %}
                         <div class="col-sm-2">
@@ -85,7 +90,7 @@
                         </div>
                         {% endif %}
                         <div class="col-sm-4">
-                            <input type="file" name="file" class="form-control" />
+                            <input type="file" id="file" name="file" class="form-control" />
                         </div>
                         <div class="col-sm-1 process-upload hidden ">
                                 {% load staticfiles %}
@@ -135,6 +140,8 @@
             }
             if (content.length != 0) {
                 $('#uploaded-field .field').append(content);
+                $('#file_name').val('');
+                $('#file').val('');
             } else {
                 //alert('Upload error !');
             }

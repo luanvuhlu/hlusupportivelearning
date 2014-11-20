@@ -18,8 +18,8 @@ class WriteTopicForm(forms.ModelForm):
         fields=['title', 'header', 'content', 'tag']
         widgets = {
             'tag': Select2MultipleWidget(select2_options={
-                                'placeholder':'Select Tags',
+                                'placeholder':'Type and Choice Tags',
                                 'minimumResultsForSearch': 10,
-                                'closeOnSelect': True,
+                                'closeOnSelect': False,
                                 }),
         }
